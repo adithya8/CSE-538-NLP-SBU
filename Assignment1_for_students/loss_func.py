@@ -19,6 +19,10 @@ def cross_entropy_loss(inputs, true_w):
 
     ==========================================================================
     """
+    # Ask Matt: Understand the objective clearly and explain your thought using Niranjan's slide
+    A = tf.reduce_sum(tf.multiply(inputs, true_w), axis=1)
+    B = tf.log(tf.reduce_sum(tf.exp(tf.matmul(inputs, true_w, transpose_a=True)), axis=1))
+
     return tf.subtract(B, A)
 
 def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
