@@ -34,8 +34,6 @@ import pickle
 from collections import namedtuple
 
 
-
-
 Word2Vec = namedtuple('Word2Vec', ['train_inputs', 'train_labels', 'loss', 'optimizer', 'global_step',
                                     'embeddings', 'normalized_embeddings', 'valid_embeddings','similarity', 
                                     'saver','summary', 'summary_writer'])

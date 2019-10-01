@@ -19,7 +19,11 @@ def cross_entropy_loss(inputs, true_w):
 
     ==========================================================================
     """
+    # Matmul vs Multiply: https://stackoverflow.com/questions/47583501/tf-multiply-vs-tf-matmul-to-calculate-the-dot-product
     # Ask Matt: Understand the objective clearly and explain your thought using Niranjan's slide
+    # multiply does an element wise multiplication 
+    # axis 1 -> sum along row
+
     A = tf.reduce_sum(tf.multiply(inputs, true_w), axis=1)
     B = tf.log(tf.reduce_sum(tf.exp(tf.matmul(inputs, true_w, transpose_a=True)), axis=1))
 
@@ -39,4 +43,16 @@ def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
     Implement Noise Contrastive Estimation Loss Here
 
     ==========================================================================
+    
+        A = - log{Pr(w_o/w_c)} = - log{sig{u_c^Tu_o + b_o - log{k*Pr(w_o)}}}
+        B = - sum{log{1-Pr(w_x/w_c)}} = - sum{log{1 - sig{u_c^Tu_x + b_x - log{k*Pr(w_x)}}}}   
+
     """
+    # Think about various ways of sampling k negative examples.  
+
+        
+
+    A = tf.log(tf.sigmoid())
+    B = tf.reduce_sum(tf.log(tf.sigmoid()),axis = 1)
+
+    return tf.add(A,B)
