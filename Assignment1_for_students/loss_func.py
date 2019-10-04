@@ -1,4 +1,5 @@
 import tensorflow as tf
+import numpy as np
 
 def cross_entropy_loss(inputs, true_w):
     """
@@ -29,6 +30,20 @@ def cross_entropy_loss(inputs, true_w):
 
     return tf.subtract(B, A)
 
+def process_negative_samples(weights, biases, labels, sample, diffK = {'status': False, 'k': 0 }):
+    # When diffK is set to false, then all the words in the batch have the same k 'negative samples'
+    if(diffK == False):
+        #All words get same negative samples
+        negEmbed = tf.nn.embedding_lookup(weights, sample)
+        negBias = tf.nn.embedding_lookup(biases, sample)
+        return negEmbed, negBias
+
+    else:
+        #Each word gets a different negative sample
+        k = max(len(sample), diffK['k'])
+        
+
+
 def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
     """
     ==========================================================================
@@ -50,9 +65,19 @@ def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
     """
     # Think about various ways of sampling k negative examples.  
 
-        
+    # processing the unified labels.     
+    # Same set of k negative samples for all words in a batch (or)
+    # Different k negative samples for each word in the batch
 
-    A = tf.log(tf.sigmoid())
-    B = tf.reduce_sum(tf.log(tf.sigmoid()),axis = 1)
+    negEmbed, negBias = process_negative_samples(weights, biases, labels, sample, diffK={'status': False, 'k': 0})
+    posEmbed = tf.nn.embedding_lookup(weights, labels)
+    posBias = tf.nn.embedding_lookup(biases, sample)
+    
+    arg1 = tf.add(tf.reduce_sum(tf.multiply(inputs, posEmbed), axis=1), posBias) - tf.log(tf.multiply(tf.size(negBias), unigram_prob[[labels]]))
+    subArg2 = tf.add(tf.reduce_sum(tf.matmul(inputs, negEmbed, transpose_b=True), axis = 1), negBias)
+    arg2 = tf.subtract(1, tf.sigmoid(tf.subtract(subArg2, tf.log(tf.multiply(tf.size(len(negBias),unigram_prob[[sample]]))))))    
+
+    A = tf.log(tf.sigmoid(arg1))
+    B = tf.reduce_sum(tf.log(arg2),axis = 1)
 
     return tf.add(A,B)
