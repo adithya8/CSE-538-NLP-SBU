@@ -32,7 +32,7 @@ def cross_entropy_loss(inputs, true_w):
 
 def process_negative_samples(weights, biases, labels, sample, diffK = {'status': False, 'k': 0 }):
     # When diffK is set to false, then all the words in the batch have the same k 'negative samples'
-    if(diffK == False):
+    if(diffK['status'] == False):
         #All words get same negative samples
         negEmbed = tf.nn.embedding_lookup(weights, sample)
         negBias = tf.nn.embedding_lookup(biases, sample)
@@ -43,6 +43,8 @@ def process_negative_samples(weights, biases, labels, sample, diffK = {'status':
         k = max(len(sample), diffK['k'])
         
 
+def logneg(arg):
+    return tf.log(tf.math.maximum(tf.keras.backend.epsilon(), arg))
 
 def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
     """
@@ -68,16 +70,26 @@ def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
     # processing the unified labels.     
     # Same set of k negative samples for all words in a batch (or)
     # Different k negative samples for each word in the batch
-
+    unigram_prob = np.array(unigram_prob, dtype=np.float32)
     negEmbed, negBias = process_negative_samples(weights, biases, labels, sample, diffK={'status': False, 'k': 0})
     posEmbed = tf.nn.embedding_lookup(weights, labels)
-    posBias = tf.nn.embedding_lookup(biases, sample)
+    posBias = tf.nn.embedding_lookup(biases, labels)
     
-    arg1 = tf.add(tf.reduce_sum(tf.multiply(inputs, posEmbed), axis=1), posBias) - tf.log(tf.multiply(tf.size(negBias), unigram_prob[[labels]]))
-    subArg2 = tf.add(tf.reduce_sum(tf.matmul(inputs, negEmbed, transpose_b=True), axis = 1), negBias)
-    arg2 = tf.subtract(1, tf.sigmoid(tf.subtract(subArg2, tf.log(tf.multiply(tf.size(len(negBias),unigram_prob[[sample]]))))))    
+    subArg1 = tf.add(tf.reduce_sum(tf.multiply(inputs, posEmbed), axis=1), posBias)
+    unigram_probab = tf.nn.embedding_lookup(unigram_prob,labels)
+    subArg1_= logneg((tf.cast(tf.multiply(np.shape(sample)[0]/1.0, unigram_probab), dtype=tf.float32))+tf.keras.backend.epsilon())
+    
+    arg1 =  subArg1 - subArg1_
+#    arg1 = tf.add(tf.reduce_sum(tf.multiply(inputs, posEmbed), axis=1), posBias) - tf.log(tf.multiply(tf.size(negBias), unigram_prob[[labels]]))
+    subArg2 = tf.matmul(inputs, negEmbed, transpose_b=True)+negBias
+#    subArg2 = tf.add(tf.reduce_sum(tf.matmul(inputs, negEmbed, transpose_b=True), axis = 1), negBias)
+    subArg2_ = tf.reshape((logneg(tf.cast(tf.multiply(np.shape(sample)[0]/1.0,unigram_prob[sample]), dtype=tf.float32)+tf.keras.backend.epsilon())), (1, -1))
+    arg2 = tf.sigmoid(tf.subtract(subArg2, subArg2_))
+#    arg2 = tf.subtract(1, tf.sigmoid(tf.subtract(subArg2, tf.log(tf.multiply(tf.size(len(negBias),unigram_prob[[sample]]))))))    
 
-    A = tf.log(tf.sigmoid(arg1))
-    B = tf.reduce_sum(tf.log(arg2),axis = 1)
+    A = tf.reduce_sum(logneg(tf.sigmoid(arg1)))
+#    A = tf.log(tf.sigmoid(arg1))
+    B = tf.reduce_sum(logneg(1-arg2+tf.keras.backend.epsilon()))    
+#    B = tf.reduce_sum(tf.log(arg2),axis = 1)
 
-    return tf.add(A,B)
+    return -A-B

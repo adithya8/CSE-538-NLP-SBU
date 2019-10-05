@@ -348,7 +348,6 @@ if __name__ == '__main__':
   unigram_cnt = [c for w, c in count]
   total = sum(unigram_cnt)
   unigram_prob = [c*1.0/total for c in unigram_cnt]
-
   data_index = 0
 
   
