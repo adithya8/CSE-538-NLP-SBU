@@ -162,7 +162,7 @@ def generate_batch(data, batch_size, num_skips, skip_window):
   #stride: for the rolling window
   stride = 1 
   #To start from the first center word from left
-  data_index = skip_window
+  data_index += skip_window
   #Used to keep track of the number of words in the batch so far
   curr_batch_size = 0
   while(curr_batch_size<batch_size):
@@ -228,7 +228,8 @@ def build_model(sess, graph, loss_model):
 
     # Construct the SGD optimizer using a learning rate of 1.0.
     optimizer = tf.train.GradientDescentOptimizer(1.0).minimize(loss, global_step=global_step)
-
+#    optimizer = tf.train.AdamOptimizer().minimize(loss, global_step=global_step)
+    
     # Compute the cosine similarity between minibatch examples and all embeddings.
     norm = tf.sqrt(tf.reduce_sum(tf.square(embeddings), 1, keep_dims=True))
     normalized_embeddings = embeddings / norm
@@ -417,5 +418,5 @@ if __name__ == '__main__':
     maybe_create_path(model_path)
     model_filepath = os.path.join(model_path, 'word2vec_%s.model'%(loss_model))
     print("Saving word2vec model as [%s]"%(model_filepath))
-    pickle.dump([dictionary, trained_steps, embeddings], open(model_filepath, 'w'))
+    pickle.dump([dictionary, trained_steps, embeddings], open(model_filepath, 'wb'))
 

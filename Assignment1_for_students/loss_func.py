@@ -25,8 +25,8 @@ def cross_entropy_loss(inputs, true_w):
     # multiply does an element wise multiplication 
     # axis 1 -> sum along row
 
-    A = tf.reduce_sum(tf.multiply(inputs, true_w), axis=1)
-    B = tf.log(tf.reduce_sum(tf.exp(tf.matmul(inputs, true_w, transpose_a=True)), axis=1))
+    A = tf.reduce_sum(tf.multiply(true_w, inputs), axis=1)
+    B = tf.log(tf.reduce_sum(tf.exp(tf.matmul(true_w, inputs, transpose_b=True)), axis=1))
 
     return tf.subtract(B, A)
 
@@ -77,19 +77,22 @@ def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
     
     subArg1 = tf.add(tf.reduce_sum(tf.multiply(inputs, posEmbed), axis=1), posBias)
     unigram_probab = tf.nn.embedding_lookup(unigram_prob,labels)
+    #randD = tf.random_uniform((tf.shape(labels)[0],1), minval=0, maxval=0.01, dtype=tf.float32)
     subArg1_= logneg((tf.cast(tf.multiply(np.shape(sample)[0]/1.0, unigram_probab), dtype=tf.float32))+tf.keras.backend.epsilon())
     
     arg1 =  subArg1 - subArg1_
-#    arg1 = tf.add(tf.reduce_sum(tf.multiply(inputs, posEmbed), axis=1), posBias) - tf.log(tf.multiply(tf.size(negBias), unigram_prob[[labels]]))
+
     subArg2 = tf.matmul(inputs, negEmbed, transpose_b=True)+negBias
-#    subArg2 = tf.add(tf.reduce_sum(tf.matmul(inputs, negEmbed, transpose_b=True), axis = 1), negBias)
+
+#    randD = tf.random_uniform((len(sample),1), minval=0, maxval=0.01, dtype=tf.float32)
+    randD = np.random.random(len(sample))
     subArg2_ = tf.reshape((logneg(tf.cast(tf.multiply(np.shape(sample)[0]/1.0,unigram_prob[sample]), dtype=tf.float32)+tf.keras.backend.epsilon())), (1, -1))
     arg2 = tf.sigmoid(tf.subtract(subArg2, subArg2_))
-#    arg2 = tf.subtract(1, tf.sigmoid(tf.subtract(subArg2, tf.log(tf.multiply(tf.size(len(negBias),unigram_prob[[sample]]))))))    
 
-    A = tf.reduce_sum(logneg(tf.sigmoid(arg1)))
-#    A = tf.log(tf.sigmoid(arg1))
-    B = tf.reduce_sum(logneg(1-arg2+tf.keras.backend.epsilon()))    
-#    B = tf.reduce_sum(tf.log(arg2),axis = 1)
+
+    A = (logneg(tf.sigmoid(arg1)))
+
+    B = tf.reduce_sum(logneg(1-arg2+tf.keras.backend.epsilon()), axis=1)
+
 
     return -A-B

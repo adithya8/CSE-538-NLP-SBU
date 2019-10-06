@@ -3,4 +3,6 @@ Assignment1_for_students/text8.zip
 Assignment1_for_students/models/*
 Assignment1_for_students/score_maxdiff.pl
 Assignment1_for_students/checkpoints_cross_entropy/*
+Assignment1_for_students/checkpoints_nce/*
+Assignment1_for_students/word_analogy_dev_sample_predictions*
 *.DS_Store
