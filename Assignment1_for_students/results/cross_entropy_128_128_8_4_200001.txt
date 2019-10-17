@@ -1,0 +1,121 @@
+Average loss at step 0: 4.956341743469238
+Nearest to the: a, an, his, its, list, this, history, these,
+Nearest to its: his, their, other, both, a, the, it, her,
+Nearest to people: about, however, although, over, around, men, u, more,
+Nearest to an: a, the, this, another, these, several, those, which,
+Nearest to would: not, that, could, will, been, we, said, must,
+Nearest to have: has, are, had, even, there, such, with, be,
+Nearest to however: although, but, though, that, while, and, since, there,
+Nearest to with: from, for, on, by, had, like, to, even,
+Nearest to UNK: e, called, de, d, g, n, also, com,
+Nearest to of: from, at, by, where, into, following, through, after,
+Nearest to from: on, with, through, into, after, in, by, under,
+Nearest to eight: seven, six, four, three, five, one, nine, zero,
+Nearest to such: like, well, even, have, can, or, are, common,
+Nearest to time: use, years, war, world, was, second, film, game,
+Nearest to he: when, but, him, after, was, had, began, his,
+Nearest to over: about, around, more, for, on, population, within, at,
+Average loss at step 5000: 4.864740636634827
+Average loss at step 10000: 4.854158369445801
+Average loss at step 15000: 4.848977252674103
+Average loss at step 20000: 4.8461507165908815
+Average loss at step 25000: 4.844580549430847
+Average loss at step 30000: 4.842380881881714
+Average loss at step 35000: 4.841090869712829
+Average loss at step 40000: 4.839413951301575
+Average loss at step 45000: 4.839681236362457
+Average loss at step 50000: 4.838090561008453
+Nearest to the: its, his, a, her, another, non, an, their,
+Nearest to its: his, their, the, other, her, both, those, a,
+Nearest to people: about, although, however, over, men, u, around, species,
+Nearest to an: a, another, the, their, several, his, this, some,
+Nearest to would: could, will, must, india, said, did, we, been,
+Nearest to have: has, had, be, are, were, make, if, cromwellian,
+Nearest to however: although, but, though, while, and, since, before, people,
+Nearest to with: from, while, by, where, like, through, among, within,
+Nearest to UNK: power, both, water, between, therefore, even, music, then,
+Nearest to of: cryptid, maizie, did, grovelling, liver, tabulator, mcquaid, cryptosystem,
+Nearest to from: among, with, on, at, through, like, into, in,
+Nearest to eight: zero, nine, seven, three, six, two, four, five,
+Nearest to such: well, any, even, like, include, jewish, can, sciatic,
+Nearest to time: use, world, film, example, years, reason, war, best,
+Nearest to he: who, him, but, and, short, named, adapt, quelle,
+Nearest to over: around, about, between, within, population, more, under, people,
+Average loss at step 55000: 4.837576301193237
+Average loss at step 60000: 4.836568120288849
+Average loss at step 65000: 4.836138564395904
+Average loss at step 70000: 4.835510255718231
+Average loss at step 75000: 4.834010653018951
+Average loss at step 80000: 4.834440202999115
+Average loss at step 85000: 4.833868970203399
+Average loss at step 90000: 4.833003489875794
+Average loss at step 95000: 4.83270249118805
+Average loss at step 100000: 4.832161365699768
+Nearest to the: a, her, their, another, his, its, an, non,
+Nearest to its: his, their, the, her, other, a, both, those,
+Nearest to people: about, although, however, men, u, over, population, around,
+Nearest to an: a, another, the, several, their, various, any, much,
+Nearest to would: could, will, must, did, india, should, does, can,
+Nearest to have: has, had, are, be, were, make, cromwellian, politician,
+Nearest to however: although, while, though, but, and, before, since, people,
+Nearest to with: by, while, where, like, among, from, include, before,
+Nearest to UNK: therefore, power, water, tax, music, w, ignored, meets,
+Nearest to of: maizie, symbionts, ims, grovelling, arz, cryptosystem, deviated, izumo,
+Nearest to from: like, among, at, through, during, include, with, before,
+Nearest to eight: zero, seven, two, five, nine, six, four, three,
+Nearest to such: well, any, sciatic, damascene, jewish, like, the, include,
+Nearest to time: world, use, film, example, period, reason, years, best,
+Nearest to he: who, it, psionic, conductor, caucasus, adapt, interferon, ideologies,
+Nearest to over: around, about, between, population, within, before, more, up,
+Average loss at step 105000: 4.831972879219055
+Average loss at step 110000: 4.831850448322296
+Average loss at step 115000: 4.831157068252564
+Average loss at step 120000: 4.830772803592682
+Average loss at step 125000: 4.831488435935974
+Average loss at step 130000: 4.830159632110596
+Average loss at step 135000: 4.830752682495117
+Average loss at step 140000: 4.8298292372703555
+Average loss at step 145000: 4.829289092540741
+Average loss at step 150000: 4.829659624576569
+Nearest to the: its, a, their, another, non, her, an, his,
+Nearest to its: his, their, the, her, a, other, both, s,
+Nearest to people: although, however, about, u, men, around, over, population,
+Nearest to an: a, the, another, their, several, any, much, some,
+Nearest to would: could, will, must, did, can, should, may, india,
+Nearest to have: has, had, be, are, were, make, cecil, cromwellian,
+Nearest to however: although, while, though, but, and, before, since, people,
+Nearest to with: while, where, by, through, like, before, within, among,
+Nearest to UNK: therefore, both, power, law, water, ignored, dsm, started,
+Nearest to of: arz, grovelling, landsmannschaft, ribbing, coaxed, semolina, micrograms, auer,
+Nearest to from: like, among, through, at, include, in, into, before,
+Nearest to eight: zero, nine, seven, four, five, three, six, two,
+Nearest to such: well, any, sciatic, damascene, stadtholder, surgeon, gini, jewish,
+Nearest to time: use, world, film, period, example, reason, year, neutron,
+Nearest to he: it, who, they, conductor, luftwaffe, she, psionic, flattest,
+Nearest to over: around, about, between, population, within, before, under, through,
+Average loss at step 155000: 4.829263188171387
+Average loss at step 160000: 4.829190562343597
+Average loss at step 165000: 4.829025177192688
+Average loss at step 170000: 4.827551024055481
+Average loss at step 175000: 4.828012083244324
+Average loss at step 180000: 4.8283282707214354
+Average loss at step 185000: 4.8272523624420165
+Average loss at step 190000: 4.827747618579864
+Average loss at step 195000: 4.827094250679016
+Average loss at step 200000: 4.8268621585845946
+Nearest to the: her, its, their, another, a, his, any, an,
+Nearest to its: his, their, the, her, a, other, whose, both,
+Nearest to people: u, men, however, although, about, fans, children, jaina,
+Nearest to an: a, another, the, their, several, no, any, its,
+Nearest to would: will, could, can, must, should, did, may, india,
+Nearest to have: has, had, be, were, are, make, having, cecil,
+Nearest to however: although, while, and, but, though, before, since, people,
+Nearest to with: through, where, within, while, if, under, by, includes,
+Nearest to UNK: therefore, law, tax, verb, oldest, enter, malvinas, power,
+Nearest to of: arturo, abruptly, khalifa, chamorro, gesenius, avedon, mcquaid, wetware,
+Nearest to from: like, among, in, include, into, through, before, when,
+Nearest to eight: zero, seven, nine, two, three, five, september, six,
+Nearest to such: well, any, sciatic, damascene, the, surgeon, adrafinil, referred,
+Nearest to time: use, world, film, reason, neutron, period, year, overstepped,
+Nearest to he: it, they, who, she, i, psionic, conductor, adapt,
+Nearest to over: around, about, between, within, old, nearly, before, population,

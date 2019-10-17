@@ -90,9 +90,10 @@ def nce_loss(inputs, weights, biases, labels, sample, unigram_prob):
     arg2 = tf.sigmoid(tf.subtract(subArg2, subArg2_))
 
 
-    A = (logneg(tf.sigmoid(arg1)))
+    A = tf.reduce_sum(logneg(tf.sigmoid(arg1)), axis=1)
 
     B = tf.reduce_sum(logneg(1-arg2+tf.keras.backend.epsilon()), axis=1)
-
+    print (A)
+    print (B)    
 
     return -A-B

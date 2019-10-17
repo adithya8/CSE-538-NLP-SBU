@@ -23,6 +23,7 @@ import os, sys
 import random
 import zipfile
 import pdb
+import subprocess
 
 import numpy as np
 from six.moves import urllib
@@ -162,7 +163,8 @@ def generate_batch(data, batch_size, num_skips, skip_window):
   #stride: for the rolling window
   stride = 1 
   #To start from the first center word from left
-  data_index += skip_window
+  data_index += skip_window if (data_index == 0) else data_index
+  data_index %= len(data)
   #Used to keep track of the number of words in the batch so far
   curr_batch_size = 0
   while(curr_batch_size<batch_size):
@@ -273,6 +275,10 @@ def train(sess, model, data, dictionary, batch_size, num_skips, skip_window,
   average_loss_step = max(checkpoint_step/10, 100)
 
   average_loss = 0
+  maybe_create_path("./results/")
+  file_name = "./results/"+loss_model+"_"+str(batch_size)+"_"+str(embedding_size)+"_"+str(num_skips)+"_"+str(skip_window)+"_"+str(max_num_steps)+".txt"
+  f = open(file_name, 'w')
+  opstr = ""
   for step in xrange(max_num_steps):
     batch_inputs, batch_labels = generate_batch(data, batch_size, num_skips, skip_window)
     feed_dict = {model.train_inputs.name: batch_inputs, model.train_labels.name: batch_labels}
@@ -287,7 +293,8 @@ def train(sess, model, data, dictionary, batch_size, num_skips, skip_window,
       if step > 0:
         average_loss /= average_loss_step
       # The average loss is an estimate of the loss over the last 2000 batches.
-      print("Average loss at step ", step, ": ", average_loss)
+      #print("Average loss at step ", step, ": ", average_loss)
+      opstr += "Average loss at step "+ str(step)+ ": "+ str(average_loss) + "\n"
       average_loss = 0
       # model.summary_writer.add_summary(summary, model.global_step.eval())
       # model.summary_writer.flush()
@@ -303,10 +310,12 @@ def train(sess, model, data, dictionary, batch_size, num_skips, skip_window,
         for k in xrange(top_k):
           close_word = reverse_dictionary[nearest[k]]
           log_str = "%s %s," % (log_str, close_word)
-        print(log_str)
+        #print(log_str)
+        opstr += log_str+"\n"
       # chkpt_path = os.path.join(checkpoint_model_path, 'w2v_%s.cpkt'%(loss_model))
       # model.saver.save(sess, chkpt_path, global_step=model.global_step.eval())
-
+  f.write(opstr)
+  f.close()
 
   # model.summary_writer.close()
 
@@ -365,10 +374,15 @@ if __name__ == '__main__':
 #  pdb.set_trace()
   ####################################################################################
   # Hyper Parameters to config
-  batch_size = 128
-  embedding_size = 128  # Dimension of the embedding vector.
-  skip_window = 4       # How many words to consider left and right.
-  num_skips = 8         # How many times to reuse an input to generate a label.
+  print ("Default hyperparameters \nbatch size and embed size: 128 \nskip window:4 \nnum_skips:8 \nnum_steps:200001")
+  batch_size = input("Enter batch size: ")
+  batch_size = int(batch_size) if (batch_size != "") else 128
+  embedding_size = input("Enter Embed size: ")
+  embedding_size = int(embedding_size) if (embedding_size != "") else 128 # Dimension of the embedding vector.
+  skip_window = input("Enter skip window: ")
+  skip_window = int(skip_window) if (skip_window != "") else 4  # How many words to consider left and right.
+  num_skips = input("Enter num skips: ")
+  num_skips = int(num_skips) if (num_skips != "") else 8  # How many times to reuse an input to generate a label.
   
 
   # We pick a random validation set to sample nearest neighbors. Here we limit the
@@ -378,6 +392,10 @@ if __name__ == '__main__':
   valid_window = 100  # Only pick dev samples in the head of the distribution.
   valid_examples = np.random.choice(valid_window, valid_size, replace=False)
   num_sampled = 64    # Number of negative examples to sample.
+  if(loss_model=='nce'):
+    num_sampled = input("Enter num_sampled: ")
+    num_sampled = int(num_sampled) if (num_sampled != "") else 64
+  
 
   # summary_path = './summary_%s'%(loss_model)
   pretrained_model_path = './pretrained/'
@@ -387,7 +405,8 @@ if __name__ == '__main__':
 
   
   # maximum training step
-  max_num_steps  = 200001
+  max_num_steps  = input("Enter steps to be trained: ")
+  max_num_steps = int(max_num_steps) if (max_num_steps != "") else 200001
   checkpoint_step = 50000
     
 
@@ -416,7 +435,32 @@ if __name__ == '__main__':
     trained_steps = model.global_step.eval()
 
     maybe_create_path(model_path)
+    if(loss_model != 'nce'):
+      model_filename = model_path+"/word2vec_"+loss_model+"_"+str(batch_size)+"_"+str(embedding_size)+"_"+str(num_skips)+"_"+str(skip_window)+"_"+str(max_num_steps)+".model"
+    else:
+      model_filename = model_path+"/word2vec_"+loss_model+"_"+str(batch_size)+"_"+str(embedding_size)+"_"+str(num_skips)+"_"+str(skip_window)+"_"+str(max_num_steps)+"_"+str(num_sampled)+".model"
     model_filepath = os.path.join(model_path, 'word2vec_%s.model'%(loss_model))
+    choice = input("Save model to default model?(y/n): ")
+    model_filepath = model_filepath if(choice == 'y' or choice == 'Y') else model_filename
     print("Saving word2vec model as [%s]"%(model_filepath))
     pickle.dump([dictionary, trained_steps, embeddings], open(model_filepath, 'wb'))
 
+  run_word_analogy = input("Run word analogy for this config(y/n)?: ")
+  if(run_word_analogy=='y' or run_word_analogy=='Y'):
+    command = "python ./word_analogy.py "+loss_model+" "+model_filepath
+    op = subprocess.check_output(command, shell=True)
+    print(op.decode("utf-8"))
+    
+    perl_command = (op.decode("utf-8")).split('\n')[-2]
+    run_perl = input("Run the perl for the same(y/n)?: ")
+    if(run_perl=='y' or run_perl=='Y'):
+      maybe_create_path("./word_analogy_score")
+      command = perl_command
+      op = subprocess.check_output(command, shell=True)
+      print(op.decode("utf-8"))
+    else:
+      print ("The End")
+
+  else:
+    print ("The end")
+  

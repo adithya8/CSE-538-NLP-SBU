@@ -1,0 +1,69 @@
+Average loss at step 0: 4.956341743469238
+Nearest to one: six, eight, three, seven, five, nine, four, two,
+Nearest to so: other, will, not, even, if, how, that, have,
+Nearest to eight: seven, six, four, three, five, one, nine, zero,
+Nearest to may: been, since, they, also, would, to, he, but,
+Nearest to can: be, often, this, is, could, are, such, it,
+Nearest to four: three, five, seven, six, eight, two, one, zero,
+Nearest to be: can, often, this, is, it, being, not, could,
+Nearest to an: a, the, this, another, these, several, those, which,
+Nearest to often: be, can, sometimes, generally, usually, leader, also, commonly,
+Nearest to not: would, if, they, do, that, did, could, you,
+Nearest to war: second, world, time, united, british, soviet, union, game,
+Nearest to that: however, would, but, not, if, although, had, where,
+Nearest to many: some, several, all, various, any, those, most, each,
+Nearest to had: has, but, with, have, it, that, there, even,
+Nearest to from: on, with, through, into, after, in, by, under,
+Nearest to nine: eight, one, seven, six, five, zero, three, four,
+Average loss at step 5000: 4.8647406330108645
+Average loss at step 10000: 4.854158364391327
+Average loss at step 15000: 4.848977245616913
+Average loss at step 20000: 4.8461507177352905
+Average loss at step 25000: 4.844580544471741
+Average loss at step 30000: 4.842380882263184
+Average loss at step 35000: 4.841090868091583
+Average loss at step 40000: 4.839413948822021
+Average loss at step 45000: 4.839681235027313
+Average loss at step 50000: 4.8380905595779415
+Nearest to one: zero, nine, two, seven, bc, six, four, april,
+Nearest to so: other, will, how, if, what, no, you, did,
+Nearest to eight: zero, nine, seven, three, six, two, four, five,
+Nearest to may: since, they, would, s, when, but, however, will,
+Nearest to can: could, is, often, are, had, cannot, would, generally,
+Nearest to four: zero, seven, six, nine, three, september, january, mid,
+Nearest to be: have, being, often, refer, has, sometimes, are, make,
+Nearest to an: a, another, the, their, several, his, this, some,
+Nearest to often: sometimes, generally, usually, commonly, can, also, leader, frequently,
+Nearest to not: said, you, would, generally, never, usually, likely, been,
+Nearest to war: second, time, game, union, film, united, modern, british,
+Nearest to that: where, however, which, as, if, though, but, common,
+Nearest to many: some, several, all, any, various, each, most, those,
+Nearest to had: has, have, was, is, were, can, could, are,
+Nearest to from: among, with, on, at, through, like, into, in,
+Nearest to nine: zero, two, seven, eight, six, three, five, th,
+Average loss at step 55000: 4.837576299953461
+Average loss at step 60000: 4.836568118572235
+Average loss at step 65000: 4.836138566207886
+Average loss at step 70000: 4.835510256862641
+Average loss at step 75000: 4.834010654258728
+Average loss at step 80000: 4.834440200901032
+Average loss at step 85000: 4.833868970394135
+Average loss at step 90000: 4.833003483104706
+Average loss at step 95000: 4.832702495002747
+Average loss at step 100000: 4.832161366653442
+Nearest to one: zero, three, two, bc, seven, nine, eight, april,
+Nearest to so: other, how, what, will, you, no, though, if,
+Nearest to eight: zero, seven, two, five, nine, six, four, three,
+Nearest to may: since, would, will, could, can, must, both, when,
+Nearest to can: could, had, has, would, is, are, should, will,
+Nearest to four: zero, five, eight, nine, three, mid, seven, january,
+Nearest to be: have, being, been, make, often, refer, remain, actually,
+Nearest to an: a, another, the, several, their, various, any, much,
+Nearest to often: sometimes, generally, usually, commonly, leader, frequently, never, still,
+Nearest to not: usually, also, never, gpus, said, you, generally, often,
+Nearest to war: second, serve, game, union, majority, area, bragi, film,
+Nearest to that: where, however, modular, which, as, laud, if, simplest,
+Nearest to many: some, several, any, all, various, each, no, most,
+Nearest to had: has, was, have, is, were, can, are, could,
+Nearest to from: like, among, at, through, during, include, with, before,
+Nearest to nine: zero, two, eight, seven, five, six, th, three,

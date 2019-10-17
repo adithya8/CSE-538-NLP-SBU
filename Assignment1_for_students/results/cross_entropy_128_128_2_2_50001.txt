@@ -1,0 +1,43 @@
+Average loss at step 0: 4.949806213378906
+Nearest to of: from, at, by, where, into, following, through, after,
+Nearest to most: important, first, main, all, many, original, last, some,
+Nearest to during: after, before, until, in, when, on, first, following,
+Nearest to five: four, six, three, seven, eight, two, one, zero,
+Nearest to may: been, since, they, also, would, to, he, but,
+Nearest to time: use, years, war, world, was, second, film, game,
+Nearest to history: part, university, state, the, city, form, series, theory,
+Nearest to used: example, instance, given, addition, written, time, designed, this,
+Nearest to called: or, UNK, which, who, also, named, de, where,
+Nearest to more: than, about, over, even, high, less, had, long,
+Nearest to only: to, if, it, is, not, who, that, but,
+Nearest to eight: seven, six, four, three, five, one, nine, zero,
+Nearest to not: would, if, they, do, that, did, could, you,
+Nearest to people: about, however, although, over, around, men, u, more,
+Nearest to for: by, to, with, on, in, when, from, also,
+Nearest to its: his, their, other, both, a, the, it, her,
+Average loss at step 5000: 4.8030431293487545
+Average loss at step 10000: 4.77809942369461
+Average loss at step 15000: 4.766914905166626
+Average loss at step 20000: 4.755645528411865
+Average loss at step 25000: 4.750304030799866
+Average loss at step 30000: 4.745982191467285
+Average loss at step 35000: 4.741096321964264
+Average loss at step 40000: 4.7357975818634035
+Average loss at step 45000: 4.732609017181397
+Average loss at step 50000: 4.730157215213776
+Nearest to of: during, for, after, at, under, within, from, through,
+Nearest to most: first, some, many, all, several, main, because, original,
+Nearest to during: after, before, until, under, since, at, through, when,
+Nearest to five: four, seven, six, three, eight, zero, two, nine,
+Nearest to may: would, can, could, will, must, should, since, to,
+Nearest to time: period, year, use, world, game, war, beginning, years,
+Nearest to history: form, great, part, university, city, modern, series, development,
+Nearest to used: seen, found, considered, given, written, held, designed, known,
+Nearest to called: named, but, or, which, who, known, and, used,
+Nearest to more: less, about, larger, very, other, even, if, only,
+Nearest to only: if, it, often, though, now, when, usually, later,
+Nearest to eight: seven, nine, zero, six, five, four, three, two,
+Nearest to not: usually, often, never, what, generally, also, now, if,
+Nearest to people: men, companies, fans, women, members, scientists, countries, species,
+Nearest to for: with, through, after, under, within, of, before, during,
+Nearest to its: their, his, the, her, another, any, an, these,

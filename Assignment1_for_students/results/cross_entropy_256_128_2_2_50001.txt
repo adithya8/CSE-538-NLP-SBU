@@ -1,0 +1,43 @@
+Average loss at step 0: 5.621027946472168
+Nearest to however: although, but, though, that, while, and, since, there,
+Nearest to or: and, called, which, but, than, who, such, this,
+Nearest to his: her, its, their, him, the, an, them, he,
+Nearest to on: from, in, for, with, through, after, during, by,
+Nearest to their: its, his, them, they, those, several, her, many,
+Nearest to other: are, so, both, its, their, others, even, were,
+Nearest to united: states, same, kingdom, north, war, british, union, city,
+Nearest to state: government, city, court, new, history, republic, is, series,
+Nearest to its: his, their, other, both, a, the, it, her,
+Nearest to would: not, that, could, will, been, we, said, must,
+Nearest to into: from, through, on, within, by, to, under, before,
+Nearest to he: when, but, him, after, was, had, began, his,
+Nearest to of: from, at, by, where, into, following, through, after,
+Nearest to during: after, before, until, in, when, on, first, following,
+Nearest to there: has, have, had, although, but, with, however, though,
+Nearest to time: use, years, war, world, was, second, film, game,
+Average loss at step 5000: 5.47857452545166
+Average loss at step 10000: 5.449688865089416
+Average loss at step 15000: 5.433794017028808
+Average loss at step 20000: 5.42261685628891
+Average loss at step 25000: 5.414394706058502
+Average loss at step 30000: 5.408735652351379
+Average loss at step 35000: 5.404427031612396
+Average loss at step 40000: 5.397139928245545
+Average loss at step 45000: 5.396357483577728
+Average loss at step 50000: 5.390127461624146
+Nearest to however: although, but, though, while, when, where, since, before,
+Nearest to or: and, than, while, like, but, include, using, with,
+Nearest to his: their, its, her, the, another, an, several, this,
+Nearest to on: through, into, from, under, in, during, within, at,
+Nearest to their: its, his, her, the, several, them, another, both,
+Nearest to other: both, their, some, these, various, others, its, more,
+Nearest to united: same, north, states, south, eastern, west, soviet, city,
+Nearest to state: city, government, story, court, history, period, series, version,
+Nearest to its: their, his, the, her, another, this, an, several,
+Nearest to would: will, could, can, must, did, may, should, does,
+Nearest to into: through, from, under, within, on, before, with, after,
+Nearest to he: it, she, they, only, but, who, so, there,
+Nearest to of: for, during, within, at, under, with, after, from,
+Nearest to during: after, before, until, through, under, since, following, in,
+Nearest to there: but, she, little, although, it, made, longer, these,
+Nearest to time: period, year, use, world, least, years, beginning, point,

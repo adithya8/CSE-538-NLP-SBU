@@ -1,0 +1,43 @@
+Average loss at step 0: 764.5440673828125
+Nearest to when: in, after, by, for, to, before, during, until,
+Nearest to can: be, often, this, is, could, are, such, it,
+Nearest to but: however, although, though, that, had, and, which, it,
+Nearest to three: four, five, seven, six, eight, one, two, nine,
+Nearest to d: b, e, n, g, UNK, c, j, h,
+Nearest to other: are, so, both, its, their, others, even, were,
+Nearest to may: been, since, they, also, would, to, he, but,
+Nearest to united: states, same, kingdom, north, war, british, union, city,
+Nearest to its: his, their, other, both, a, it, her, those,
+Nearest to one: six, eight, three, seven, five, nine, four, two,
+Nearest to he: when, but, him, after, was, had, began, his,
+Nearest to no: any, than, you, that, little, there, many, so,
+Nearest to were: are, was, other, have, being, be, later, it,
+Nearest to four: three, five, seven, six, eight, two, one, zero,
+Nearest to as: known, being, for, very, with, it, also, by,
+Nearest to who: which, but, not, they, or, would, been, only,
+Average loss at step 5000: 292.3870594161987
+Average loss at step 10000: 306.1596248565674
+Average loss at step 15000: 303.2068223175049
+Average loss at step 20000: 304.1182705078125
+Average loss at step 25000: 302.01690144348146
+Average loss at step 30000: 297.386930871582
+Average loss at step 35000: 294.74035065612793
+Average loss at step 40000: 296.6152803161621
+Average loss at step 45000: 293.53504307556153
+Average loss at step 50000: 289.38531784973145
+Nearest to when: albanian, prince, of, cannibalism, spirit, after, by, vicksburg,
+Nearest to can: be, has, company, that, network, then, its, international,
+Nearest to but: in, they, resolution, according, step, his, concorde, parastatistics,
+Nearest to three: six, zero, a, and, the, by, seven, in,
+Nearest to d: c, findslot, sloti, archery, draw, value, b, television,
+Nearest to other: deuteronomic, introduction, sinai, mount, address, ten, commandments, given,
+Nearest to may: also, much, nine, until, j, north, ringleaders, overseas,
+Nearest to united: states, dmca, credit, information, three, ny, internet, full,
+Nearest to its: company, it, can, four, an, of, or, that,
+Nearest to one: two, this, other, code, ten, deuteronomic, mount, sinai,
+Nearest to he: for, has, defined, to, r, more, an, cite,
+Nearest to no: import, group, valley, time, de, insubstantial, american, n,
+Nearest to were: being, cia, gielgud, laws, three, zealand, university, south,
+Nearest to four: some, seven, of, from, and, university, black, population,
+Nearest to as: in, of, with, not, many, and, or, the,
+Nearest to who: president, ibm, label, no, university, hecate, how, war,

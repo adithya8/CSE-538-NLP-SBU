@@ -1,0 +1,121 @@
+Average loss at step 0: 1498.729248046875
+Nearest to will: would, could, should, does, not, so, that, must,
+Nearest to only: to, if, it, is, not, who, that, but,
+Nearest to but: however, although, though, that, had, which, it, when,
+Nearest to no: any, than, you, that, little, there, many, so,
+Nearest to are: were, other, have, can, be, often, such, is,
+Nearest to is: has, be, it, being, can, was, but, which,
+Nearest to was: being, is, were, he, time, when, it, created,
+Nearest to who: which, but, not, they, or, would, been, only,
+Nearest to which: this, but, form, or, who, also, is, these,
+Nearest to as: known, being, for, very, with, it, also, by,
+Nearest to during: after, before, until, in, when, on, first, following,
+Nearest to their: its, his, them, they, those, several, her, many,
+Nearest to one: six, eight, three, seven, five, nine, four, two,
+Nearest to into: from, through, on, within, by, to, under, before,
+Nearest to in: on, when, during, for, since, from, after, by,
+Nearest to years: time, year, example, instance, use, best, over, about,
+Average loss at step 5000: 532.5113635406494
+Average loss at step 10000: 603.2894555114746
+Average loss at step 15000: 620.179658517456
+Average loss at step 20000: 631.4705900634766
+Average loss at step 25000: 631.9117005371094
+Average loss at step 30000: 632.4721291015625
+Average loss at step 35000: 622.8158814697266
+Average loss at step 40000: 614.5036895324707
+Average loss at step 45000: 608.0260876281739
+Average loss at step 50000: 605.4876971496582
+Nearest to will: warned, hermon, sadducees, persians, tank, healthcare, distinctive, addison,
+Nearest to only: panipat, ally, gopher, seeing, quantum, lynx, alarm, survival,
+Nearest to but: above, about, protest, of, arabs, is, squads, wiring,
+Nearest to no: import, bamiyan, counterclockwise, nbc, conserved, fawlty, conception, sprite,
+Nearest to are: at, and, he, a, in, would, marxists, to,
+Nearest to is: of, a, six, the, that, and, zero, was,
+Nearest to was: that, is, he, of, modern, and, climate, coraciiformes,
+Nearest to who: brave, tortosa, cases, maroon, sagittarius, employment, palnik, rufus,
+Nearest to which: serve, paradox, nagorno, transliterated, dancing, andrews, before, naturalism,
+Nearest to as: he, a, in, that, is, rather, time, have,
+Nearest to during: airline, among, hot, through, dedekind, partners, gottlob, sterility,
+Nearest to their: dvd, nazism, incompatible, resultant, deemed, vicious, cid, inadvertent,
+Nearest to one: nine, six, zero, seven, is, two, arcane, hilarious,
+Nearest to into: desires, scottish, standing, come, territory, silos, masterpieces, hair,
+Nearest to in: a, and, the, as, that, are, at, to,
+Nearest to years: marquis, guitarist, morality, standards, dynasties, scottish, castile, lemass,
+Average loss at step 55000: 602.2244331542969
+Average loss at step 60000: 603.0085969787598
+Average loss at step 65000: 600.8148123962402
+Average loss at step 70000: 596.3367978393554
+Average loss at step 75000: 595.4699602172851
+Average loss at step 80000: 589.4254495788574
+Average loss at step 85000: 589.5794617248536
+Average loss at step 90000: 602.4809250122071
+Average loss at step 95000: 596.3864833740234
+Average loss at step 100000: 589.3757569091797
+Nearest to will: sadducees, warned, tank, hermon, rigatoni, relations, stamped, if,
+Nearest to only: tough, sculptor, quantum, lynx, feverish, halakha, panipat, rumen,
+Nearest to but: above, six, was, is, unhcr, club, it, about,
+Nearest to no: import, info, duplicate, weinberg, devalued, super, mathematik, shaw,
+Nearest to are: a, that, at, seven, radicals, is, as, be,
+Nearest to is: six, that, i, nine, are, be, as, radicals,
+Nearest to was: mnp, of, they, maroon, resided, okinawan, appelbaum, ceremonially,
+Nearest to who: unscientific, ivoire, buddha, humidity, sheer, shaft, boot, fatally,
+Nearest to which: to, herpetology, occitan, for, processor, as, expenditure, denner,
+Nearest to as: that, a, to, radicals, or, at, be, also,
+Nearest to during: introduction, improvement, fichte, ajaccio, anselm, disheveled, disputations, arteriovenous,
+Nearest to their: master, agony, singhasari, resultant, incompatible, in, peerages, celebrity,
+Nearest to one: zero, radicals, two, six, nine, four, three, grinder,
+Nearest to into: divided, taxon, homotopy, psychotic, desires, melancholic, clever, standing,
+Nearest to in: and, to, a, the, mnp, radicals, s, some,
+Nearest to years: melancholic, gallon, electromagnetic, psychotic, experiential, javanese, dialect, facet,
+Average loss at step 105000: 592.481193963623
+Average loss at step 110000: 596.4690746704101
+Average loss at step 115000: 598.1793747131347
+Average loss at step 120000: 599.4809237548828
+Average loss at step 125000: 596.778136328125
+Average loss at step 130000: 597.2435622802734
+Average loss at step 135000: 595.6712506469727
+Average loss at step 140000: 589.2508626159668
+Average loss at step 145000: 586.9920446166992
+Average loss at step 150000: 582.0087166381836
+Nearest to will: as, if, archive, tank, sadducees, vn, michel, hermon,
+Nearest to only: quantum, sculptor, lynx, feverish, panipat, halakha, limnology, rumen,
+Nearest to but: is, if, one, was, all, six, ine, this,
+Nearest to no: import, info, duplicate, insubstantial, super, cuba, jargon, devalued,
+Nearest to are: as, be, that, at, to, would, a, links,
+Nearest to is: be, for, as, radicals, of, that, this, would,
+Nearest to was: equ, mnp, varangian, they, s, appelbaum, uzala, glenora,
+Nearest to who: sheer, shaft, frankness, unscientific, profits, ennis, desmond, sarawak,
+Nearest to which: areopagus, to, amateur, teams, adkins, expenditure, herpetology, athan,
+Nearest to as: that, be, are, a, world, is, for, at,
+Nearest to during: particles, children, fichte, vermeer, differentiation, engine, considered, mikhail,
+Nearest to their: correll, singhasari, school, lockhart, zsef, nasal, society, radioactive,
+Nearest to one: zero, radicals, or, six, four, two, is, grinder,
+Nearest to into: nature, appreciated, standing, dumont, ibarra, maize, kaos, heinrich,
+Nearest to in: and, a, to, s, it, zero, radicals, his,
+Nearest to years: diskettes, dies, xyridaceae, unrhymed, inwards, shift, elca, melancholic,
+Average loss at step 155000: 586.3919056396485
+Average loss at step 160000: 587.7033587585449
+Average loss at step 165000: 587.5653952453613
+Average loss at step 170000: 591.2982305114746
+Average loss at step 175000: 587.587004095459
+Average loss at step 180000: 590.9486546264649
+Average loss at step 185000: 593.2183398071289
+Average loss at step 190000: 589.1240807312012
+Average loss at step 195000: 588.6322632507324
+Average loss at step 200000: 591.8210604125976
+Nearest to will: as, archive, at, tank, me, hermon, but, code,
+Nearest to only: quantum, stumbled, sculptor, lynx, expo, feverish, nude, panipat,
+Nearest to but: or, is, all, x, for, six, was, this,
+Nearest to no: import, info, duplicate, institution, insubstantial, devalued, super, cuba,
+Nearest to are: as, be, not, of, that, forces, and, astronautics,
+Nearest to is: be, for, by, of, this, radicals, mended, appelbaum,
+Nearest to was: s, equ, mnp, varangian, hyland, it, ceremonially, radicals,
+Nearest to who: pro, sankara, excessive, accomplished, ennis, slate, yc, sheer,
+Nearest to which: occitan, chops, adkins, areopagus, materials, shva, mot, therapeutics,
+Nearest to as: that, a, are, world, be, for, at, and,
+Nearest to during: children, livingston, particles, unreliable, funded, continuum, cumberland, wallaby,
+Nearest to their: singhasari, school, correll, must, lockhart, nasal, zsef, architecture,
+Nearest to one: zero, in, six, two, four, radicals, nine, s,
+Nearest to into: nature, heinrich, comedy, store, parenting, ibarra, appreciated, friendly,
+Nearest to in: and, s, a, zero, one, to, it, the,
+Nearest to years: pontormo, unrhymed, beqaa, combatant, holies, endorphins, jats, inwards,

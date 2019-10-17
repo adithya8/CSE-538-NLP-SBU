@@ -1,0 +1,43 @@
+Average loss at step 0: 4.956341743469238
+Nearest to system: is, forces, field, chadian, only, power, space, common,
+Nearest to for: by, to, with, on, in, when, from, also,
+Nearest to s: the, two, in, an, five, early, when, n,
+Nearest to five: four, six, three, seven, eight, two, one, zero,
+Nearest to all: many, some, several, most, much, those, only, any,
+Nearest to will: would, could, should, does, not, so, that, must,
+Nearest to his: her, its, their, him, the, an, them, he,
+Nearest to war: second, world, time, united, british, soviet, union, game,
+Nearest to one: six, eight, three, seven, five, nine, four, two,
+Nearest to which: this, but, form, or, who, also, is, these,
+Nearest to that: however, would, but, not, if, although, had, where,
+Nearest to see: and, example, also, or, external, another, include, instance,
+Nearest to an: a, the, this, another, these, several, those, which,
+Nearest to UNK: e, called, de, d, g, n, also, com,
+Nearest to or: and, called, which, but, than, who, such, this,
+Nearest to is: has, be, it, being, can, was, but, which,
+Average loss at step 5000: 4.864740635967254
+Average loss at step 10000: 4.854158361339569
+Average loss at step 15000: 4.848977252578735
+Average loss at step 20000: 4.846150713825226
+Average loss at step 25000: 4.844580547332764
+Average loss at step 30000: 4.842380882740021
+Average loss at step 35000: 4.841090868091583
+Average loss at step 40000: 4.839413951969147
+Average loss at step 45000: 4.839681234836578
+Average loss at step 50000: 4.8380905576705935
+Nearest to system: field, forces, chadian, common, ended, language, space, general,
+Nearest to for: at, where, through, when, from, quotes, like, within,
+Nearest to s: may, its, his, since, when, their, and, an,
+Nearest to five: zero, six, three, nine, seven, march, four, eight,
+Nearest to all: many, several, any, some, much, most, a, only,
+Nearest to will: could, would, should, does, must, india, did, do,
+Nearest to his: its, their, her, the, a, an, another, this,
+Nearest to war: second, time, game, union, film, united, modern, british,
+Nearest to one: zero, nine, two, seven, bc, six, four, april,
+Nearest to which: this, form, where, but, and, who, these, modern,
+Nearest to that: where, however, which, as, if, though, but, common,
+Nearest to see: example, or, use, external, reason, any, support, information,
+Nearest to an: a, another, the, their, several, his, this, some,
+Nearest to UNK: power, both, water, between, therefore, even, music, then,
+Nearest to or: and, than, called, but, who, which, however, see,
+Nearest to is: was, are, has, can, were, had, makes, could,

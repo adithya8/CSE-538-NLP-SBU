@@ -3,26 +3,30 @@ import pickle
 import numpy as np
 import pdb
 from scipy import spatial
+import subprocess
 
 
-
-model_path = './models/'
 if(len(sys.argv)>1):
     if sys.argv[1] == 'nce':
         loss_model = 'nce'
     else:
         loss_model = 'cross_entropy'
 
-outputFile = './word_analogy_dev_sample_predictions.txt'
+model_path = './models/'
 if(len(sys.argv)>2):
-    outputFile = str(sys.argv[2])
-
-
-
-
-model_filepath = os.path.join(model_path, 'word2vec_%s.model'%(loss_model))
+    model_filepath = sys.argv[2]
+else:
+    model_filepath = input('Custom input (Press enter for default):')
+    model_filepath = model_filepath if(model_filepath != "") else os.path.join(model_path, 'word2vec_%s.model'%(loss_model))
 
 dictionary, steps, embeddings = pickle.load(open(model_filepath, 'rb'))
+
+if not os.path.exists('./word_analogy_pred'):
+    os.mkdir('./word_analogy_pred')
+    print ("Created a path: %s"%('./word_analogy_pred'))
+outputFile = './word_analogy_pred'+'/word_analogy_dev_sample_pred_'+loss_model+model_filepath.split(loss_model)[-1].split(".model")[0]+'.txt'
+if(len(sys.argv)>3):
+    outputFile = str(sys.argv[3])
 
 """
 ==========================================================================
@@ -88,7 +92,6 @@ for i in range(4):
 
 result = np.array(result)
 result = result.T
-pdb.set_trace()
 print (result.shape)
 minIndexCol = np.argmin(result, axis=1)
 maxIndexCol = np.argmax(result, axis=1)
@@ -99,12 +102,19 @@ for i in range(len(c)):
     temp = ""
     for j in range(4):
         temp += '"' + ":".join(c[i][3:][j]) + '" '
-    temp += '"' + ":".join(c[i][3:][minIndexCol[i]]) + '" '
-    temp += '"' + ":".join(c[i][3:][maxIndexCol[i]]) + '"\n'
+    temp += '"' + ":".join(c[i][3:][maxIndexCol[i]]) + '" '        
+    temp += '"' + ":".join(c[i][3:][minIndexCol[i]]) + '"\n'
+    
     
     opstr += temp
 
 f = open(outputFile,'w')
 f.write(opstr)
 f.close()
+
+command = "./score_maxdiff.pl word_analogy_dev_mturk_answers.txt " +outputFile+" ./word_analogy_score/score_"+loss_model+"_"+model_filepath.split(loss_model)[-1].split(".model")[0]+".txt"
+print ("Run this command if you want to run the scoring function")
+print (command)
+
+
 

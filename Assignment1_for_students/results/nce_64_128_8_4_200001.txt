@@ -1,0 +1,121 @@
+Average loss at step 0: 813.660400390625
+Nearest to for: by, to, with, on, in, when, from, also,
+Nearest to system: is, forces, field, chadian, only, power, space, common,
+Nearest to most: important, main, all, many, original, last, some, same,
+Nearest to these: this, also, a, those, that, different, some, been,
+Nearest to was: being, is, were, he, time, when, it, created,
+Nearest to from: on, with, through, into, after, in, by, under,
+Nearest to been: would, they, these, may, who, not, said, some,
+Nearest to while: however, although, before, still, but, with, where, without,
+Nearest to is: has, be, it, being, can, was, but, which,
+Nearest to they: not, their, could, to, would, who, been, do,
+Nearest to a: an, these, this, another, several, some, its, those,
+Nearest to no: any, than, you, that, little, there, many, so,
+Nearest to on: from, in, for, with, through, after, during, by,
+Nearest to who: which, but, not, they, or, would, been, only,
+Nearest to many: some, several, all, various, any, those, most, each,
+Nearest to some: many, several, all, those, these, most, a, been,
+Average loss at step 5000: 475.8134806388855
+Average loss at step 10000: 596.3290422821045
+Average loss at step 15000: 651.2611066619874
+Average loss at step 20000: 674.5829093963623
+Average loss at step 25000: 696.2303373840332
+Average loss at step 30000: 698.8665212074279
+Average loss at step 35000: 714.6110761871338
+Average loss at step 40000: 729.3774184204102
+Average loss at step 45000: 732.2449194213867
+Average loss at step 50000: 730.2861010314941
+Nearest to for: objects, stormbl, derrida, px, essentially, steamer, googol, gunpowder,
+Nearest to system: pat, oliphant, pulitzer, operate, malware, crossing, ieee, advertised,
+Nearest to most: asinius, sepulchre, bal, believe, left, time, quiet, minyan,
+Nearest to these: disguise, shells, fossils, their, listowel, remarried, evictions, upstart,
+Nearest to was: not, s, swindled, revolt, noc, gentleman, object, pru,
+Nearest to from: wisc, thymoma, garrett, sapphire, praising, fishermen, garzon, morihei,
+Nearest to been: minestrone, have, soriano, bends, humperdink, inquisitorial, reilly, houstonians,
+Nearest to while: elaborate, concubines, arranged, broncos, loss, ceremony, formal, season,
+Nearest to is: provable, swift, tale, confederate, tub, proposal, retaliation, modest,
+Nearest to they: were, efficient, interpolating, streisand, suck, exile, debut, ethel,
+Nearest to a: with, neutralinos, pantera, zanc, racket, thermoelectricity, columbarium, are,
+Nearest to no: summary, tale, modest, swift, tub, provable, proposal, proof,
+Nearest to on: islamonline, active, privileged, claude, declining, his, chiastic, prohibition,
+Nearest to who: publicity, anatomy, spotted, renew, dinosaurs, hillsborough, pvcs, pierce,
+Nearest to many: togo, furthers, liddell, leyden, pandemonium, zande, oed, parrish,
+Nearest to some: sensor, enforce, disagreement, even, ted, elephants, fundamental, tear,
+Average loss at step 55000: 724.446788684082
+Average loss at step 60000: 725.9990009399414
+Average loss at step 65000: 717.2736986846924
+Average loss at step 70000: 718.6029148864747
+Average loss at step 75000: 720.6750010803223
+Average loss at step 80000: 715.3558006713868
+Average loss at step 85000: 717.4481022064209
+Average loss at step 90000: 722.4226403137206
+Average loss at step 95000: 715.8275988769532
+Average loss at step 100000: 710.8169102233886
+Nearest to for: y, as, integration, industriels, it, hasidism, have, on,
+Nearest to system: huston, pat, gaul, pulitzer, sent, ahistorical, operate, malware,
+Nearest to most: natural, paltry, earliest, television, successor, environmental, silver, believe,
+Nearest to these: malta, bindings, military, columbia, tool, explained, ness, nc,
+Nearest to was: s, about, testimonial, cristatus, not, world, to, impressionistic,
+Nearest to from: thymoma, binocular, roberto, tresse, ma, ballplayer, pxelinux, misskelley,
+Nearest to been: clara, myasthenic, sections, over, smile, constantinople, view, tibet,
+Nearest to while: elaborate, concubines, loss, broncos, arranged, ceremony, season, formal,
+Nearest to is: there, genies, elektron, acacia, a, org, menno, voraciously,
+Nearest to they: were, jealousy, interpolating, exploring, suck, streisand, octopus, confessed,
+Nearest to a: as, on, to, is, christians, there, escorts, that,
+Nearest to no: danish, labs, clair, indelible, propriety, eula, silva, montagne,
+Nearest to on: one, a, esperantido, inhalants, as, olney, breather, roundness,
+Nearest to who: rob, nat, andrzej, edinburgh, ends, informations, sharapova, automatically,
+Nearest to many: elijah, uprising, musique, trigonometry, initial, crawfish, shellfish, poodle,
+Nearest to some: where, upscale, playing, roma, comet, scholastics, apricot, comical,
+Average loss at step 105000: 719.8469382751465
+Average loss at step 110000: 710.6299120056152
+Average loss at step 115000: 715.2608148925781
+Average loss at step 120000: 713.3762848388672
+Average loss at step 125000: 710.3871152099609
+Average loss at step 130000: 712.661144494629
+Average loss at step 135000: 707.9832833068848
+Average loss at step 140000: 704.8567947753907
+Average loss at step 145000: 708.2917797912597
+Average loss at step 150000: 700.2106904418945
+Nearest to for: duns, folger, kasz, usair, boty, osterman, on, as,
+Nearest to system: curie, pat, mills, malware, sent, gaul, dopant, tarja,
+Nearest to most: d, paltry, zulu, compressor, shaka, major, combat, terrain,
+Nearest to these: reflective, tortured, hazard, vu, seizure, balloons, cortex, mylar,
+Nearest to was: swindled, awarded, knight, gentleman, interventions, vecchio, respondents, december,
+Nearest to from: thymoma, binocular, are, ballplayer, skirmishers, modulates, roberto, donning,
+Nearest to been: had, have, is, and, papadopoulos, serpents, passarowitz, continuously,
+Nearest to while: elaborate, concubines, loss, ceremony, broncos, birnbaum, season, sayles,
+Nearest to is: a, been, unscheduled, nonnegative, there, neolithic, on, more,
+Nearest to they: stanford, appear, connection, greek, amazons, lycia, several, legends,
+Nearest to a: to, with, is, for, are, by, as, more,
+Nearest to no: vehemently, aichi, accused, visible, velo, irreducible, felix, tobit,
+Nearest to on: as, for, which, tegmental, trallians, steampunk, intellimouse, aelian,
+Nearest to who: nat, rob, frontline, paleo, sharapova, them, cloths, andrzej,
+Nearest to many: elijah, richardson, trigonometry, cnidarians, initial, seuss, musique, wcl,
+Nearest to some: grimm, nitrogen, hafizullah, illegal, chickpea, goretti, tongeren, stimme,
+Average loss at step 155000: 700.406462487793
+Average loss at step 160000: 695.6911156127929
+Average loss at step 165000: 694.5507516540528
+Average loss at step 170000: 693.5920620361328
+Average loss at step 175000: 696.8982950744629
+Average loss at step 180000: 695.0833722595215
+Average loss at step 185000: 696.7891170410156
+Average loss at step 190000: 695.4170164916992
+Average loss at step 195000: 693.8618997070313
+Average loss at step 200000: 690.1917385437011
+Nearest to for: duns, boty, usair, kasz, osterman, metrication, aphelion, contes,
+Nearest to system: curie, sensitive, mills, gaul, malware, pat, pulitzer, ion,
+Nearest to most: pages, analogue, d, new, amendment, according, lieutenant, boards,
+Nearest to these: tortured, reflective, pathological, vu, divine, sounding, rincewind, seizure,
+Nearest to was: awarded, corps, halon, knight, widening, arabs, fletcher, swindled,
+Nearest to from: befriends, azariah, previous, combustion, urfa, yuko, advocated, extend,
+Nearest to been: have, tampa, mcguire, keyboardists, keri, slip, elektron, one,
+Nearest to while: elaborate, concubines, birnbaum, broncos, season, ceremony, sayles, formal,
+Nearest to is: a, on, one, zero, maggie, their, unscheduled, trallians,
+Nearest to they: appear, stanford, connection, greek, lycia, amazons, invaded, were,
+Nearest to a: on, is, with, for, as, more, by, in,
+Nearest to no: aichi, velo, tarski, hurting, there, analog, myres, tobit,
+Nearest to on: as, a, and, for, boty, this, steampunk, is,
+Nearest to who: rob, nat, publicity, nair, frontline, to, oasis, taiwan,
+Nearest to many: acquaintance, elijah, monologion, pike, holloway, butt, pig, predominate,
+Nearest to some: participated, consortium, grimm, braz, capping, descendant, combination, dolly,

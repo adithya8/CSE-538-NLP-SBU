@@ -1,0 +1,69 @@
+Average loss at step 0: 4.213305950164795
+Nearest to often: be, can, sometimes, generally, usually, leader, also, commonly,
+Nearest to up: out, high, more, will, over, long, them, to,
+Nearest to by: for, to, with, when, from, in, on, also,
+Nearest to is: has, be, it, being, can, was, but, which,
+Nearest to are: were, other, have, can, be, often, such, is,
+Nearest to who: which, but, not, they, or, would, been, only,
+Nearest to new: high, great, became, state, year, small, full, general,
+Nearest to two: zero, five, three, four, six, one, seven, january,
+Nearest to one: six, eight, three, seven, five, nine, four, two,
+Nearest to which: this, but, form, or, who, also, is, these,
+Nearest to time: use, years, war, world, was, second, film, game,
+Nearest to be: can, often, this, is, it, being, not, could,
+Nearest to if: not, that, only, it, so, will, even, would,
+Nearest to but: however, although, though, that, had, and, which, it,
+Nearest to used: example, instance, given, addition, written, time, designed, this,
+Nearest to can: be, often, this, is, could, are, such, it,
+Average loss at step 5000: 4.17920480184555
+Average loss at step 10000: 4.171017124843598
+Average loss at step 15000: 4.167906272029876
+Average loss at step 20000: 4.165101613140107
+Average loss at step 25000: 4.163593581485748
+Average loss at step 30000: 4.162293248748779
+Average loss at step 35000: 4.1612387042045595
+Average loss at step 40000: 4.160498034477234
+Average loss at step 45000: 4.159487447834015
+Average loss at step 50000: 4.159101983737946
+Nearest to often: sometimes, can, be, generally, usually, leader, commonly, frequently,
+Nearest to up: out, high, more, will, them, him, over, long,
+Nearest to by: when, with, during, after, through, under, within, where,
+Nearest to is: was, has, being, are, were, can, dialogue, country,
+Nearest to are: were, have, can, be, being, other, often, is,
+Nearest to who: would, they, named, been, only, could, these, now,
+Nearest to new: great, year, high, became, major, peace, general, public,
+Nearest to two: stagnated, around, some, season, about, more, games, linezolid,
+Nearest to one: line, high, gray, hala, cushitic, instructions, effect, with,
+Nearest to which: form, called, where, these, this, who, modern, order,
+Nearest to time: use, world, years, reason, war, example, game, film,
+Nearest to be: often, being, have, can, are, sometimes, usually, was,
+Nearest to if: not, into, only, you, make, will, would, we,
+Nearest to but: however, although, though, there, had, while, when, since,
+Nearest to used: example, instance, given, addition, time, designed, him, especially,
+Nearest to can: often, could, generally, this, such, cannot, are, usually,
+Average loss at step 55000: 4.158619320678711
+Average loss at step 60000: 4.158413986301422
+Average loss at step 65000: 4.157828341960907
+Average loss at step 70000: 4.157415527629852
+Average loss at step 75000: 4.157286290931702
+Average loss at step 80000: 4.15685857591629
+Average loss at step 85000: 4.156466357421875
+Average loss at step 90000: 4.1557632655143735
+Average loss at step 95000: 4.1557063723564145
+Average loss at step 100000: 4.155580295181275
+Nearest to often: sometimes, generally, leader, can, usually, commonly, frequently, never,
+Nearest to up: high, more, out, over, him, will, them, together,
+Nearest to by: when, where, during, within, after, with, under, interchange,
+Nearest to is: has, were, are, was, being, can, zero, gives,
+Nearest to are: were, have, sykes, being, is, be, can, authenticating,
+Nearest to who: named, been, only, would, could, they, you, these,
+Nearest to new: great, year, high, peace, series, became, general, more,
+Nearest to two: using, ta, considering, qian, some, cell, lsd, sixty,
+Nearest to one: local, high, so, arrigo, mathilde, she, gray, line,
+Nearest to which: form, called, these, modern, where, found, who, result,
+Nearest to time: use, world, example, reason, years, war, best, game,
+Nearest to be: often, being, have, surroundings, sometimes, usually, are, remain,
+Nearest to if: into, make, you, will, not, would, only, when,
+Nearest to but: however, although, though, while, there, when, since, had,
+Nearest to used: example, given, instance, designed, time, fact, addition, especially,
+Nearest to can: often, could, generally, cannot, sometimes, any, such, either,

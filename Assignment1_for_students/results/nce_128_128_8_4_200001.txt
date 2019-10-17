@@ -1,0 +1,121 @@
+Average loss at step 0: 777.50244140625
+Nearest to if: not, that, only, it, so, will, even, would,
+Nearest to with: from, for, on, by, had, like, to, even,
+Nearest to during: after, before, until, in, when, on, following, under,
+Nearest to s: two, in, an, five, when, n, one, three,
+Nearest to that: however, would, but, not, if, although, had, where,
+Nearest to i: t, you, we, n, would, e, don, g,
+Nearest to eight: seven, six, four, three, five, one, nine, zero,
+Nearest to often: be, can, sometimes, generally, usually, leader, also, commonly,
+Nearest to may: been, since, they, also, would, to, he, but,
+Nearest to were: are, was, other, have, being, be, later, it,
+Nearest to not: would, if, they, do, that, did, could, you,
+Nearest to his: her, its, their, him, an, them, he, a,
+Nearest to will: would, could, should, does, not, so, that, must,
+Nearest to but: however, although, though, that, had, which, it, when,
+Nearest to have: has, are, had, even, there, such, with, be,
+Nearest to first: last, name, early, following, and, original, during, of,
+Average loss at step 5000: 2.0265847228087486
+Average loss at step 10000: 0.7531960695805028
+Average loss at step 15000: 0.7108792252944782
+Average loss at step 20000: 0.6736983470944687
+Average loss at step 25000: 0.6435761877544224
+Average loss at step 30000: 0.6231706865786575
+Average loss at step 35000: 0.6225927110248245
+Average loss at step 40000: 0.6211532304941677
+Average loss at step 45000: 0.5970525553832297
+Average loss at step 50000: 0.5883501617241651
+Nearest to if: only, had, into, even, not, would, than, have,
+Nearest to with: or, from, for, that, s, as, by, are,
+Nearest to during: after, before, under, through, into, most, only, had,
+Nearest to s: that, for, with, from, or, as, to, not,
+Nearest to that: s, for, with, to, in, and, or, as,
+Nearest to i: first, they, when, who, three, an, at, english,
+Nearest to eight: four, six, seven, was, one, he, this, UNK,
+Nearest to often: sometimes, be, still, only, many, have, their, such,
+Nearest to may: more, all, would, some, other, s, which, however,
+Nearest to were: an, be, three, can, at, two, they, when,
+Nearest to not: from, or, s, for, with, that, have, other,
+Nearest to his: an, two, be, on, s, that, with, UNK,
+Nearest to will: would, more, while, i, had, only, on, they,
+Nearest to but: also, are, or, it, with, by, has, as,
+Nearest to have: with, from, for, or, s, not, are, that,
+Nearest to first: english, i, original, when, three, who, at, until,
+Average loss at step 55000: 0.5637953105531167
+Average loss at step 60000: 0.5633109939366113
+Average loss at step 65000: 0.5551453996775672
+Average loss at step 70000: 0.5463982775866986
+Average loss at step 75000: 0.5490655089841224
+Average loss at step 80000: 0.5429187207017094
+Average loss at step 85000: 0.5431354828296229
+Average loss at step 90000: 0.5323754073158372
+Average loss at step 95000: 0.5321809562065639
+Average loss at step 100000: 0.519419804436341
+Nearest to if: only, had, even, than, into, not, all, have,
+Nearest to with: or, from, for, s, that, by, are, as,
+Nearest to during: after, before, under, through, into, although, only, had,
+Nearest to s: that, with, for, from, or, by, on, not,
+Nearest to that: to, s, for, with, and, in, as, or,
+Nearest to i: when, they, first, who, three, e, at, an,
+Nearest to eight: four, six, seven, was, one, he, this, UNK,
+Nearest to often: only, their, have, many, such, not, had, other,
+Nearest to may: all, other, more, would, many, not, these, which,
+Nearest to were: an, be, at, three, can, two, they, when,
+Nearest to not: from, or, with, s, for, other, have, that,
+Nearest to his: an, two, on, s, that, with, be, UNK,
+Nearest to will: would, while, had, more, only, even, not, from,
+Nearest to but: also, are, or, with, by, has, this, it,
+Nearest to have: with, from, or, not, for, s, are, other,
+Nearest to first: english, i, original, when, three, at, until, used,
+Average loss at step 105000: 0.5228299008829985
+Average loss at step 110000: 0.5182524232140975
+Average loss at step 115000: 0.5219267624485306
+Average loss at step 120000: 0.5101326281664893
+Average loss at step 125000: 0.5147440188446315
+Average loss at step 130000: 0.512738174339151
+Average loss at step 135000: 0.5103205698468257
+Average loss at step 140000: 0.5078831594691147
+Average loss at step 145000: 0.5023760181263788
+Average loss at step 150000: 0.5012075017623138
+Nearest to if: only, had, than, even, into, all, not, more,
+Nearest to with: or, from, s, for, that, by, not, on,
+Nearest to during: before, after, under, through, into, although, only, while,
+Nearest to s: with, from, for, that, or, not, by, on,
+Nearest to that: for, to, with, s, or, on, as, in,
+Nearest to i: they, when, first, who, three, at, e, an,
+Nearest to eight: four, six, seven, was, he, one, this, UNK,
+Nearest to often: only, their, many, such, have, had, not, these,
+Nearest to may: all, more, other, no, would, these, many, which,
+Nearest to were: an, can, at, three, be, they, two, on,
+Nearest to not: from, with, or, s, for, other, have, that,
+Nearest to his: an, two, on, s, with, that, more, or,
+Nearest to will: would, while, had, even, only, more, not, into,
+Nearest to but: also, or, are, with, by, this, has, from,
+Nearest to have: with, from, not, or, s, for, are, other,
+Nearest to first: english, i, original, when, three, used, until, at,
+Average loss at step 155000: 0.5047586238328134
+Average loss at step 160000: 0.4993456782175228
+Average loss at step 165000: 0.5038659466712736
+Average loss at step 170000: 0.4970892624103697
+Average loss at step 175000: 0.4924708857892547
+Average loss at step 180000: 0.4928154901687754
+Average loss at step 185000: 0.4926780110973632
+Average loss at step 190000: 0.48964951769534965
+Average loss at step 195000: 0.48961740089318484
+Average loss at step 200000: 0.4853068958271295
+Nearest to if: only, had, than, even, all, into, not, such,
+Nearest to with: or, from, for, that, s, on, by, are,
+Nearest to during: before, after, under, through, into, although, only, while,
+Nearest to s: for, with, from, that, or, on, not, by,
+Nearest to that: for, with, s, to, or, on, as, two,
+Nearest to i: they, when, first, who, at, three, e, an,
+Nearest to eight: four, six, was, seven, he, this, one, UNK,
+Nearest to often: only, their, many, such, had, have, even, these,
+Nearest to may: all, these, would, other, no, more, many, their,
+Nearest to were: an, can, at, three, be, they, when, two,
+Nearest to not: from, or, with, s, for, other, that, have,
+Nearest to his: an, on, two, s, with, that, UNK, or,
+Nearest to will: would, even, while, had, only, into, more, such,
+Nearest to but: also, or, are, with, by, from, this, has,
+Nearest to have: with, from, not, or, s, are, for, other,
+Nearest to first: english, i, original, when, three, used, until, at,

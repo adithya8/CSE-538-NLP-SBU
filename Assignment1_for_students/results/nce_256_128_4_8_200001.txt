@@ -1,0 +1,121 @@
+Average loss at step 0: 808.7222900390625
+Nearest to than: more, each, or, about, with, no, there, less,
+Nearest to state: government, city, court, new, history, republic, series, story,
+Nearest to were: are, was, other, have, being, be, later, them,
+Nearest to as: known, pioch, wta, touchable, plaut, blatant, persecute, lobbied,
+Nearest to when: after, for, before, during, until, on, but, since,
+Nearest to on: from, for, with, through, after, during, under, when,
+Nearest to such: like, well, even, have, can, or, are, common,
+Nearest to many: some, several, all, various, those, most, any, each,
+Nearest to can: be, often, this, could, are, such, usually, not,
+Nearest to into: through, from, on, within, under, before, with, together,
+Nearest to also: and, been, to, a, is, it, by, procomm,
+Nearest to be: can, often, this, being, not, could, have, usually,
+Nearest to about: over, around, more, people, zero, than, after, years,
+Nearest to been: also, to, it, used, a, trial, would, nabonidus,
+Nearest to between: then, both, thus, black, over, through, on, became,
+Nearest to which: this, but, form, or, who, these, where, called,
+Average loss at step 5000: 662.5103495391845
+Average loss at step 10000: 719.5909129333496
+Average loss at step 15000: 736.3683609863281
+Average loss at step 20000: 741.9482026367187
+Average loss at step 25000: 741.0363849060059
+Average loss at step 30000: 750.1233364746093
+Average loss at step 35000: 751.9974189025879
+Average loss at step 40000: 757.833708557129
+Average loss at step 45000: 756.6955040283203
+Average loss at step 50000: 755.1409613769531
+Nearest to than: concern, slavey, myelinolysis, cct, carriages, scheming, msv, swains,
+Nearest to state: mit, kryptonite, clergy, preachers, universities, afi, miniseries, link,
+Nearest to were: rec, paracompact, sinan, noble, sovereign, had, bishopi, sloan,
+Nearest to as: is, or, by, unordered, an, collecting, such, peru,
+Nearest to when: phases, player, and, togo, succulent, hipster, wonderswan, undeterred,
+Nearest to on: to, by, unstressed, new, in, is, his, direct,
+Nearest to such: fasts, ratios, lan, defuses, freude, feel, burne, retaining,
+Nearest to many: movements, kink, imperfect, connect, activism, inlay, buy, analyzed,
+Nearest to can: remove, facing, because, watson, mines, career, thompson, segol,
+Nearest to into: translation, important, cristae, schooled, methanol, elite, ricketts, astrodome,
+Nearest to also: exalted, kato, inscriptions, unprecedented, let, yielding, telescope, kea,
+Nearest to be: to, z, god, may, detain, limassol, learning, distritos,
+Nearest to about: would, sandwich, wayward, look, polls, tigers, hasdai, rife,
+Nearest to been: arka, map, have, had, families, fasts, biconditional, island,
+Nearest to between: define, journalism, stating, lumberjack, scientific, sabine, draw, motorcycle,
+Nearest to which: bloemfontein, convention, republic, independence, south, pretoria, orange, established,
+Average loss at step 55000: 756.3714724609375
+Average loss at step 60000: 749.6141829589844
+Average loss at step 65000: 750.7246421142578
+Average loss at step 70000: 751.3697934204101
+Average loss at step 75000: 749.4073903320312
+Average loss at step 80000: 746.4204243041992
+Average loss at step 85000: 747.7816440429688
+Average loss at step 90000: 745.8691737792968
+Average loss at step 95000: 752.7497349975586
+Average loss at step 100000: 749.007745336914
+Nearest to than: hagan, eburones, carriages, arlie, crucible, screenwriting, abai, perpetual,
+Nearest to state: miniseries, afi, inmarsat, preachers, clergy, kryptonite, universities, riichi,
+Nearest to were: had, event, service, sloan, belarus, zedong, noble, schnabel,
+Nearest to as: a, known, an, such, or, on, system, most,
+Nearest to when: troops, machinery, most, americas, knowledge, weiss, angular, while,
+Nearest to on: to, by, new, of, a, in, unstressed, its,
+Nearest to such: as, rescued, ceres, things, states, marine, sea, scientists,
+Nearest to many: connect, tallied, successfully, loanwords, challenge, generally, duda, cartridge,
+Nearest to can: thereby, remove, on, career, watson, mott, started, distributions,
+Nearest to into: organized, satellite, reformer, obtained, cave, cable, scientific, longer,
+Nearest to also: telescope, me, exalted, reflecting, kea, dominions, inch, papist,
+Nearest to be: for, of, to, sister, system, or, corsham, areas,
+Nearest to about: its, eleonora, mayer, friederich, belt, regular, rothschild, ndel,
+Nearest to been: have, has, east, shales, ordered, implosion, which, nowell,
+Nearest to between: makes, define, covenant, overwhelmed, arrival, stating, fireballs, rete,
+Nearest to which: republic, independence, bloemfontein, convention, its, of, granted, pretoria,
+Average loss at step 105000: 748.431239465332
+Average loss at step 110000: 746.296561315918
+Average loss at step 115000: 744.9548851196289
+Average loss at step 120000: 748.886469921875
+Average loss at step 125000: 753.8723505493164
+Average loss at step 130000: 752.2932516357422
+Average loss at step 135000: 754.8904236572265
+Average loss at step 140000: 754.8374570556641
+Average loss at step 145000: 757.7053311645508
+Average loss at step 150000: 757.53438046875
+Nearest to than: hagan, confusingly, screenwriting, treason, canaanites, gallons, linesmen, perpetual,
+Nearest to state: zeppelin, caterpillar, miniseries, inmarsat, universities, preachers, dispossessed, ifrcs,
+Nearest to were: fear, event, enzyme, mentioned, president, wwe, had, upu,
+Nearest to as: an, or, things, sensitive, wer, such, known, troops,
+Nearest to when: necklace, wealth, constance, miss, zeal, gained, kermit, freese,
+Nearest to on: to, by, a, of, them, the, its, and,
+Nearest to such: sensitive, as, sing, advocates, states, things, hasbrouck, music,
+Nearest to many: generally, fencers, movements, connect, dialysis, general, true, calabi,
+Nearest to can: be, have, some, produce, invoice, named, californians, to,
+Nearest to into: obtained, cave, squarely, autopia, rising, classical, agriculture, polarities,
+Nearest to also: to, papist, kicking, voiced, maimonides, seriously, telecast, hope,
+Nearest to be: can, siano, special, for, highly, deportivo, cried, or,
+Nearest to about: its, regular, eleonora, notes, friederich, rothschild, kilometers, reformed,
+Nearest to been: has, have, conveniences, rnvr, epidemic, adult, not, shales,
+Nearest to between: stating, oldest, arrival, stages, define, question, stud, monorail,
+Nearest to which: republic, bloemfontein, convention, year, to, independence, of, verification,
+Average loss at step 155000: 756.6886069213867
+Average loss at step 160000: 756.51685390625
+Average loss at step 165000: 758.1793083129883
+Average loss at step 170000: 756.5031854736328
+Average loss at step 175000: 756.4470515136719
+Average loss at step 180000: 755.875911315918
+Average loss at step 185000: 755.6199713256837
+Average loss at step 190000: 751.0536404418946
+Average loss at step 195000: 754.0542004394531
+Average loss at step 200000: 752.1846129638672
+Nearest to than: treason, halper, hagan, confusingly, screenwriting, aaron, geiseric, parti,
+Nearest to state: harper, dispossessed, lakeview, creek, consolidating, miniseries, high, caterpillar,
+Nearest to were: council, metaphor, fear, belarus, event, charge, wwe, kaufman,
+Nearest to as: an, it, skill, a, troops, borough, people, continues,
+Nearest to when: was, placing, necklace, sword, china, a, sie, in,
+Nearest to on: to, of, them, and, a, in, the, from,
+Nearest to such: subordinate, as, mycological, sing, skeet, baghdad, dress, loveless,
+Nearest to many: regiment, paula, proliferation, fencers, rgermeister, are, interstellar, mycological,
+Nearest to can: be, rd, or, facing, to, endocrinologists, barbagia, hassan,
+Nearest to into: pushing, santa, squarely, elongated, costumes, obtained, me, effective,
+Nearest to also: to, voiced, linguolabial, denmark, maimonides, bilabial, hamburgs, telescope,
+Nearest to be: can, or, for, unlimited, natural, this, beliefs, special,
+Nearest to about: its, catering, castle, notes, to, damp, epe, vlad,
+Nearest to been: have, has, p, rnvr, not, adult, roermond, tumble,
+Nearest to between: define, delete, stating, balloting, worst, date, hence, portuguese,
+Nearest to which: republic, year, convention, bloemfontein, unknown, on, to, repeatedly,

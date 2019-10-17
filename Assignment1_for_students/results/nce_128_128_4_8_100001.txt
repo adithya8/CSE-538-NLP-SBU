@@ -1,0 +1,69 @@
+Average loss at step 0: 361.80560302734375
+Nearest to states: united, same, kingdom, british, north, union, city, most,
+Nearest to a: an, several, kamera, list, another, these, some, capitan,
+Nearest to united: states, same, kingdom, north, war, british, union, city,
+Nearest to seven: six, four, eight, three, five, one, nine, two,
+Nearest to for: by, with, to, on, when, from, also, at,
+Nearest to an: this, another, a, these, several, those, which, his,
+Nearest to between: then, both, thus, black, over, through, on, became,
+Nearest to also: these, for, this, by, which, it, often, now,
+Nearest to some: many, several, all, those, these, most, been, various,
+Nearest to history: part, university, state, city, form, series, theory, great,
+Nearest to d: b, e, n, g, UNK, c, j, h,
+Nearest to people: about, however, although, over, around, men, u, more,
+Nearest to about: over, around, more, people, zero, than, after, years,
+Nearest to such: like, well, even, have, can, or, are, common,
+Nearest to if: not, only, that, it, so, will, even, would,
+Nearest to of: the, used, reabsorption, khadija, sociedad, usonia, demimonde, matanza,
+Average loss at step 5000: 419.097896786499
+Average loss at step 10000: 440.7626817749023
+Average loss at step 15000: 448.5460298034668
+Average loss at step 20000: 456.6352608276367
+Average loss at step 25000: 454.4147670654297
+Average loss at step 30000: 460.66086071777346
+Average loss at step 35000: 457.0115945495605
+Average loss at step 40000: 466.7689187561035
+Average loss at step 45000: 476.6878827880859
+Average loss at step 50000: 477.8835062072754
+Nearest to states: united, russia, debian, manual, ron, lance, delusions, ruth,
+Nearest to a: congregation, supported, sustaining, vhdl, joshi, diocese, amalthea, quotes,
+Nearest to united: russia, kingdom, states, delusions, peru, debian, italy, muds,
+Nearest to seven: one, nine, zero, of, jacques, about, bruguera, musketeers,
+Nearest to for: two, s, from, six, united, they, and, outcrop,
+Nearest to an: he, isbn, media, eight, for, beau, content, europe,
+Nearest to between: earthquake, debate, lisbon, volkskammer, percent, destroyed, virginia, geographical,
+Nearest to also: sukkot, feast, tabernacles, booths, baccalaureate, or, amps, just,
+Nearest to some: powerful, u, such, wetering, leak, geophysicist, durham, and,
+Nearest to history: chilean, generals, coup, rotary, splinter, homeland, eritrean, ath,
+Nearest to d: framework, theoretically, log, peers, marque, mtr, move, landslide,
+Nearest to people: developing, ranked, distinguish, ovary, decline, apollo, appendix, fa,
+Nearest to about: white, skating, fancy, may, proofreading, broke, brunel, cannot,
+Nearest to such: have, million, some, tops, mitford, literate, higher, embedded,
+Nearest to if: graph, to, usually, by, canton, not, below, vectra,
+Nearest to of: the, to, in, that, is, one, two, but,
+Average loss at step 55000: 481.5070376464844
+Average loss at step 60000: 491.1786124511719
+Average loss at step 65000: 504.16459525756835
+Average loss at step 70000: 505.1810800231934
+Average loss at step 75000: 502.9658020385742
+Average loss at step 80000: 504.13537493286134
+Average loss at step 85000: 499.46322917480467
+Average loss at step 90000: 496.83921228027344
+Average loss at step 95000: 496.4492995727539
+Average loss at step 100000: 496.25935658569335
+Nearest to states: united, run, manual, kingdom, college, baltimore, access, differs,
+Nearest to a: of, are, s, and, to, the, well, this,
+Nearest to united: kingdom, states, russia, delusions, temple, azure, peru, buddha,
+Nearest to seven: one, nine, inglis, five, also, six, puppetry, projekt,
+Nearest to for: so, games, from, they, united, have, some, kingdom,
+Nearest to an: on, and, of, until, s, at, c, medicine,
+Nearest to between: earthquake, capac, lisbon, jacinto, percent, destroyed, volkskammer, violates,
+Nearest to also: sukkot, just, feast, tabernacles, booths, tobey, baccalaureate, kam,
+Nearest to some: of, kingdom, new, simply, such, reval, for, so,
+Nearest to history: chilean, interprets, generals, connotes, juliette, lugh, eritrean, coup,
+Nearest to d: intercity, suitable, alkalis, citicorp, steady, irascible, firecracker, cowdery,
+Nearest to people: ranked, advanced, euphonium, decline, nancy, causal, design, links,
+Nearest to about: supports, sprites, doppelbock, miskelley, sahara, paulaner, subscription, aims,
+Nearest to such: civilizations, beta, have, and, some, as, fix, references,
+Nearest to if: the, to, controversialist, is, as, floodwaters, with, of,
+Nearest to of: the, and, to, s, a, it, at, are,

@@ -1,0 +1,43 @@
+Average loss at step 0: 4.9505486488342285
+Nearest to their: its, his, them, they, those, several, her, many,
+Nearest to are: were, other, have, can, be, often, such, is,
+Nearest to b: d, c, n, k, m, g, e, f,
+Nearest to over: about, around, more, for, on, population, within, at,
+Nearest to while: however, although, before, still, but, against, with, where,
+Nearest to there: has, have, had, although, but, with, however, though,
+Nearest to world: war, time, city, united, largest, original, second, states,
+Nearest to seven: six, four, eight, three, five, one, nine, two,
+Nearest to system: is, forces, field, chadian, only, power, space, common,
+Nearest to or: and, called, which, but, than, who, such, this,
+Nearest to it: is, had, but, not, be, only, that, also,
+Nearest to up: out, high, more, will, over, long, them, to,
+Nearest to been: would, they, these, may, who, not, said, some,
+Nearest to one: six, eight, three, seven, five, nine, four, two,
+Nearest to has: have, had, is, there, that, but, with, it,
+Nearest to the: a, an, his, its, list, this, history, these,
+Average loss at step 5000: 4.866145093345642
+Average loss at step 10000: 4.8590133494377135
+Average loss at step 15000: 4.854755394172669
+Average loss at step 20000: 4.850588613986969
+Average loss at step 25000: 4.850130699253082
+Average loss at step 30000: 4.847414021778107
+Average loss at step 35000: 4.846959792327881
+Average loss at step 40000: 4.846882333850861
+Average loss at step 45000: 4.845358246040345
+Average loss at step 50000: 4.844111803817749
+Nearest to their: its, his, the, a, an, them, those, several,
+Nearest to are: were, is, was, can, has, have, had, being,
+Nearest to b: d, k, c, g, n, m, f, singer,
+Nearest to over: around, about, more, between, within, at, before, on,
+Nearest to while: although, however, before, but, and, where, way, still,
+Nearest to there: but, although, these, though, small, however, gothic, even,
+Nearest to world: city, time, largest, states, country, u, army, area,
+Nearest to seven: zero, eight, nine, two, six, one, four, three,
+Nearest to system: field, forces, chadian, power, state, language, space, group,
+Nearest to or: and, but, called, than, which, who, using, however,
+Nearest to it: this, she, her, he, but, what, there, so,
+Nearest to up: out, more, high, later, over, him, together, before,
+Nearest to been: they, would, these, developed, trial, become, some, claimed,
+Nearest to one: zero, seven, two, three, nine, five, six, four,
+Nearest to has: had, have, is, was, are, can, were, with,
+Nearest to the: a, an, its, his, their, this, another, her,

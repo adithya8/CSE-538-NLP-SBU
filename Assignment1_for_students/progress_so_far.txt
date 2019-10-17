@@ -1,0 +1,14 @@
+{"loss_model": "cross_entropy", "batch_size": 32, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": "", "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+2019-10-07 10:00:29.867224
+2019-10-07 10:02:05.684918
+{"loss_model": "cross_entropy", "batch_size": 32, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": "", "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+2019-10-07 10:02:29.088261
+{"loss_model": "cross_entropy", "batch_size": 64, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": "", "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+2019-10-07 10:04:21.437113
+{"loss_model": "cross_entropy", "batch_size": 64, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": "", "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+{"loss_model": "cross_entropy", "batch_size": 128, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": "", "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+{"loss_model": "nce", "batch_size": 128, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": 16, "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+{"loss_model": "nce", "batch_size": 128, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": 32, "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+{"loss_model": "nce", "batch_size": 128, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": 64, "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+{"loss_model": "nce", "batch_size": 128, "embedding_size": 128, "skip_window": 2, "num_skips": 2, "num_sampled": 128, "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}
+{"loss_model": "cross_entropy", "batch_size": 64, "embedding_size": 128, "skip_window": 2, "num_skips": 3, "num_sampled": 128, "max_num_steps": 50001, "run_word_analogy": "Y", "run_perl": "Y", "vocabulary_size": 100000}

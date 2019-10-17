@@ -1,0 +1,69 @@
+Average loss at step 0: 184.2139892578125
+Nearest to are: were, other, have, can, be, often, such, is,
+Nearest to one: six, eight, three, seven, five, nine, four, two,
+Nearest to new: high, great, became, state, year, small, full, general,
+Nearest to have: has, are, had, even, there, such, with, be,
+Nearest to during: after, before, until, in, when, on, following, under,
+Nearest to no: any, than, you, that, little, there, many, so,
+Nearest to they: not, their, could, to, would, who, been, do,
+Nearest to their: its, his, them, they, those, several, her, many,
+Nearest to five: four, six, three, seven, eight, two, one, zero,
+Nearest to were: are, was, other, have, being, be, later, it,
+Nearest to known: as, best, named, called, and, example, mcauley, perhaps,
+Nearest to had: has, but, with, have, it, that, there, even,
+Nearest to the: bowyer, zelaya, dnepr, frauenkirche, micropolitan, gomu, hydrogeology, mousketeers,
+Nearest to all: many, some, several, most, much, those, only, any,
+Nearest to up: out, high, more, will, over, long, them, to,
+Nearest to if: not, that, only, it, so, will, even, would,
+Average loss at step 5000: 421.95812410202024
+Average loss at step 10000: 569.2908063949585
+Average loss at step 15000: 626.4195289001465
+Average loss at step 20000: 681.3605132087707
+Average loss at step 25000: 693.7068713439942
+Average loss at step 30000: 706.6986125488281
+Average loss at step 35000: 706.829140814209
+Average loss at step 40000: 708.650720501709
+Average loss at step 45000: 715.9626723876953
+Average loss at step 50000: 712.1621305847168
+Nearest to are: telekom, ailey, salesmen, kazimir, smite, isabeau, they, ethno,
+Nearest to one: nine, seven, six, eight, five, sverre, four, kikongo,
+Nearest to new: york, architecture, dyess, longhaired, randell, signalling, depending, squad,
+Nearest to have: amway, mention, persian, yamim, massacres, urged, opponent, tradition,
+Nearest to during: enslaving, proprietary, wipe, beltraneja, explosion, castigo, constitutionalism, disillusioned,
+Nearest to no: import, insubstantial, application, bundestag, suitable, duplicate, video, censored,
+Nearest to they: could, campy, designed, beautiful, outfits, gibbon, disbelieved, bombs,
+Nearest to their: desktop, working, itil, expressing, participle, leadership, actualized, lionel,
+Nearest to five: demonstrated, training, one, protagonists, six, conceptually, editing, unambiguously,
+Nearest to were: probably, bailiff, epaphroditus, strip, ventriloquist, says, waiya, currency,
+Nearest to known: touch, complement, concert, delusional, bassoon, statesmen, branch, thrown,
+Nearest to had: help, cyclo, taken, linnhe, tanana, its, hire, dative,
+Nearest to the: chupacabras, cocoa, hegelians, moose, rayburn, creators, idiots, amorphous,
+Nearest to all: krishna, remarks, plunge, ms, enumerations, especially, cogito, camus,
+Nearest to up: weezer, caf, manitoba, tampering, taurus, bangladesh, recurrence, aftermath,
+Nearest to if: distant, treated, doubt, commit, cab, proof, formulate, fur,
+Average loss at step 55000: 706.0545735412597
+Average loss at step 60000: 701.2315699279785
+Average loss at step 65000: 702.6164977416992
+Average loss at step 70000: 703.8257981689453
+Average loss at step 75000: 704.1238178405762
+Average loss at step 80000: 699.8698220458984
+Average loss at step 85000: 711.3665319824219
+Average loss at step 90000: 709.4155384216309
+Average loss at step 95000: 710.1508609313964
+Average loss at step 100000: 706.2991892089843
+Nearest to are: specific, vapour, not, princeps, that, ghana, which, sad,
+Nearest to one: nine, seven, eight, two, aid, recipient, area, na,
+Nearest to new: wildly, taekwondo, oedipus, navvies, lonely, publishers, jiu, jersey,
+Nearest to have: or, been, mention, that, to, arts, life, martial,
+Nearest to during: packages, index, blamed, ethers, meaninglessness, constitute, lactone, toyota,
+Nearest to no: import, insubstantial, duplicate, info, deactivation, danced, far, jargon,
+Nearest to they: sitting, whole, hexen, seemed, filled, cbeebies, cbbc, saw,
+Nearest to their: working, goddess, impressionists, regaining, leadership, expressing, otherworldly, itil,
+Nearest to five: career, provinces, marta, consular, piso, nevada, sierra, bpca,
+Nearest to were: they, conectiva, sitting, sufferers, mancala, heaven, tongues, came,
+Nearest to known: conspiracy, it, is, not, branch, creation, concert, chamber,
+Nearest to had: help, although, mandrakegalaxy, azurix, vip, its, bogdanovka, hypertalk,
+Nearest to the: chupacabras, rayburn, hegelians, of, in, cocoa, relied, complies,
+Nearest to all: jorge, rit, tipton, afl, valuation, semantic, kaolin, fabric,
+Nearest to up: newer, tampering, camus, weezer, topiramate, manitoba, wikibooks, taurus,
+Nearest to if: disorders, hotspur, mothers, biblical, pontine, desi, delicate, eponymous,

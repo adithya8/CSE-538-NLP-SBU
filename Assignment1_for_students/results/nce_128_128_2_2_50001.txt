@@ -1,0 +1,43 @@
+Average loss at step 0: 1523.1859130859375
+Nearest to of: the, to, is, in, a, used, and, has,
+Nearest to most: important, first, main, all, many, original, last, some,
+Nearest to during: after, before, until, when, on, first, following, under,
+Nearest to five: four, six, three, seven, eight, two, one, zero,
+Nearest to may: since, they, would, he, but, these, some, india,
+Nearest to time: use, years, war, world, was, second, film, game,
+Nearest to history: part, university, state, city, form, series, theory, great,
+Nearest to used: the, of, is, a, to, been, and, any,
+Nearest to called: or, UNK, which, who, named, de, where, included,
+Nearest to more: than, about, over, even, high, less, had, long,
+Nearest to only: if, not, who, but, when, they, for, all,
+Nearest to eight: seven, six, four, three, five, one, nine, zero,
+Nearest to not: would, if, they, do, did, could, you, will,
+Nearest to people: about, however, although, over, around, men, u, more,
+Nearest to for: with, on, when, from, at, after, within, over,
+Nearest to its: his, their, other, both, her, those, an, american,
+Average loss at step 5000: 2.943486075246334
+Average loss at step 10000: 0.9515813034832478
+Average loss at step 15000: 0.8257243992984294
+Average loss at step 20000: 0.7883839810183272
+Average loss at step 25000: 0.7408362509444356
+Average loss at step 30000: 0.6996776843667031
+Average loss at step 35000: 0.6656444878995419
+Average loss at step 40000: 0.653332401406765
+Average loss at step 45000: 0.6354267060041427
+Average loss at step 50000: 0.6090027740001679
+Nearest to of: one, and, zero, nine, in, a, two, UNK,
+Nearest to most: all, an, some, it, also, six, see, from,
+Nearest to during: until, under, before, following, when, first, th, name,
+Nearest to five: two, four, three, UNK, zero, eight, and, in,
+Nearest to may: five, four, three, eight, but, zero, six, two,
+Nearest to time: history, war, language, world, however, her, united, over,
+Nearest to history: language, war, time, her, however, world, over, see,
+Nearest to used: has, been, only, use, also, time, he, it,
+Nearest to called: where, only, d, de, history, had, language, after,
+Nearest to more: s, on, five, from, with, this, are, two,
+Nearest to only: also, many, they, had, some, which, these, he,
+Nearest to eight: seven, three, four, five, six, two, zero, UNK,
+Nearest to not: that, with, be, for, or, by, three, this,
+Nearest to people: world, war, her, however, history, very, time, up,
+Nearest to for: with, are, three, s, that, two, by, four,
+Nearest to its: their, six, four, has, all, eight, seven, three,

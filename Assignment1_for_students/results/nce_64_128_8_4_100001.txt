@@ -1,0 +1,69 @@
+Average loss at step 0: 795.9984741210938
+Nearest to called: or, UNK, which, who, also, named, de, where,
+Nearest to when: in, after, by, for, to, before, during, until,
+Nearest to history: part, university, state, city, form, series, theory, great,
+Nearest to than: more, each, or, about, with, any, no, there,
+Nearest to between: then, both, thus, black, over, through, on, in,
+Nearest to have: has, are, had, even, there, such, with, be,
+Nearest to use: time, example, years, out, important, period, all, order,
+Nearest to may: been, since, they, also, would, to, he, but,
+Nearest to which: this, but, form, or, who, also, is, these,
+Nearest to at: after, under, from, during, on, by, for, second,
+Nearest to only: to, if, it, is, not, who, that, but,
+Nearest to also: these, to, for, this, by, which, it, often,
+Nearest to known: as, best, named, called, example, mcauley, perhaps, most,
+Nearest to or: called, which, but, than, who, such, this, also,
+Nearest to four: three, five, seven, six, eight, two, one, zero,
+Nearest to time: use, years, war, world, was, second, film, game,
+Average loss at step 5000: 537.6668333831788
+Average loss at step 10000: 653.3391970794678
+Average loss at step 15000: 690.0021824615478
+Average loss at step 20000: 703.0688532501221
+Average loss at step 25000: 714.7065733276368
+Average loss at step 30000: 722.0389290557862
+Average loss at step 35000: 719.31018024292
+Average loss at step 40000: 719.2327903381348
+Average loss at step 45000: 727.6347746826171
+Average loss at step 50000: 735.2026112304687
+Nearest to called: stunned, adolf, muddy, imaginative, vishnu, facie, bonne, oslo,
+Nearest to when: andhra, ions, jung, tezuka, managing, missouri, shopping, strasse,
+Nearest to history: garner, eritrea, concubines, cinema, readable, ghats, string, returns,
+Nearest to than: optimised, density, cpu, trouble, muslim, mountains, collapsing, performance,
+Nearest to between: seated, valley, deine, sections, optimum, emphasizing, monologion, amigas,
+Nearest to have: time, resigned, come, cosby, paleolithic, basic, possible, goodfellow,
+Nearest to use: allocricetulus, drywall, shipwrecks, anteac, krug, essayists, carthage, stendhal,
+Nearest to may: rohrabacher, kingdom, martial, capacity, theosophical, janco, unanimously, dickie,
+Nearest to which: i, part, stagnation, breaches, lu, cent, circumnavigation, disambiguate,
+Nearest to at: cold, hebrew, in, was, a, extant, pater, stephan,
+Nearest to only: he, gaeltacht, dx, to, models, x, logic, officio,
+Nearest to also: was, gaur, the, concubines, benefited, cinema, days, for,
+Nearest to known: sole, puerto, rican, floor, jar, likely, formation, satie,
+Nearest to or: hedonistic, pillar, nevil, championship, expression, presses, ethernet, logographic,
+Nearest to four: cdot, plasmids, mcmillan, hemocoel, sims, satisfies, campaign, hacked,
+Nearest to time: henchmen, acres, gangster, make, boss, ex, proposals, midwestern,
+Average loss at step 55000: 744.8454846130371
+Average loss at step 60000: 740.6679065734863
+Average loss at step 65000: 736.1930854187011
+Average loss at step 70000: 735.3140376770019
+Average loss at step 75000: 735.7083443542481
+Average loss at step 80000: 733.5472548339844
+Average loss at step 85000: 741.4286838562011
+Average loss at step 90000: 742.0430684936523
+Average loss at step 95000: 739.2064198547363
+Average loss at step 100000: 744.2575309799195
+Nearest to called: architecture, stunned, benzo, adolf, fomenting, informatii, idiom, hills,
+Nearest to when: helicopters, secretariat, calamity, dependability, andamanese, croatian, ethic, celebration,
+Nearest to history: part, wales, daffodils, elaborate, eritrea, readable, steadfast, ghats,
+Nearest to than: optimised, habermas, dvi, kits, tiebreaker, collapsing, platformer, thinking,
+Nearest to between: conversely, triples, aroused, why, literal, wondered, bengal, zambia,
+Nearest to have: hairs, valleys, valley, bitterroot, gdp, indefinite, been, reintroducing,
+Nearest to use: heroic, allocricetulus, formalist, blu, ave, gdynia, gran, ustawa,
+Nearest to may: twentieth, communicate, marignac, disadvantageous, prayer, ablaut, gabo, deg,
+Nearest to which: with, for, sugary, capita, spoken, graph, the, as,
+Nearest to at: time, a, he, eos, in, diachronic, that, not,
+Nearest to only: botaniates, arms, inventory, dike, sulla, ronald, wort, involuntary,
+Nearest to also: in, see, which, for, population, french, and, hairs,
+Nearest to known: crete, sole, fans, atlases, puerto, minos, teenage, silent,
+Nearest to or: society, world, suggests, aigalliers, pillar, prohibited, abhors, language,
+Nearest to four: instigated, gottwald, innovations, populaire, beachcomber, purges, euros, declaring,
+Nearest to time: henchmen, gangster, supervisory, parents, pbr, ex, acres, polanyi,

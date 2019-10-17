@@ -1,0 +1,121 @@
+Average loss at step 0: 5.614596366882324
+Nearest to has: have, had, is, there, that, but, with, it,
+Nearest to can: be, often, this, is, could, are, such, it,
+Nearest to had: has, but, with, have, it, that, there, even,
+Nearest to war: second, world, time, united, british, soviet, union, game,
+Nearest to UNK: e, called, de, d, g, n, also, com,
+Nearest to they: not, their, could, to, would, who, been, do,
+Nearest to people: about, however, although, over, around, men, u, more,
+Nearest to state: government, city, court, new, history, republic, is, series,
+Nearest to is: has, be, it, being, can, was, but, which,
+Nearest to more: than, about, over, even, high, less, had, long,
+Nearest to over: about, around, more, for, on, population, within, at,
+Nearest to are: were, other, have, can, be, often, such, is,
+Nearest to be: can, often, this, is, it, being, not, could,
+Nearest to also: and, these, to, for, this, by, which, it,
+Nearest to many: some, several, all, various, any, those, most, each,
+Nearest to he: when, but, him, after, was, had, began, his,
+Average loss at step 5000: 5.553124891090393
+Average loss at step 10000: 5.54434510383606
+Average loss at step 15000: 5.539376712417602
+Average loss at step 20000: 5.535362766075134
+Average loss at step 25000: 5.53375286693573
+Average loss at step 30000: 5.531105855369568
+Average loss at step 35000: 5.5298091381073
+Average loss at step 40000: 5.529378509426117
+Average loss at step 45000: 5.52829680929184
+Average loss at step 50000: 5.526206948852539
+Nearest to has: had, have, is, was, are, can, were, but,
+Nearest to can: could, will, are, would, often, is, had, should,
+Nearest to had: has, have, was, were, is, can, could, are,
+Nearest to war: time, second, game, film, united, soviet, union, modern,
+Nearest to UNK: d, n, e, o, b, john, then, g,
+Nearest to they: been, would, we, their, who, you, could, often,
+Nearest to people: about, however, although, men, over, u, members, species,
+Nearest to state: government, city, court, series, story, history, version, group,
+Nearest to is: was, are, has, were, had, can, have, being,
+Nearest to more: over, about, less, even, long, up, other, so,
+Nearest to over: around, about, more, between, within, under, on, population,
+Nearest to are: were, is, was, has, have, can, had, being,
+Nearest to be: have, often, being, refer, him, make, were, was,
+Nearest to also: often, that, now, which, where, these, when, still,
+Nearest to many: some, several, all, any, various, each, most, those,
+Nearest to he: it, him, she, schule, but, who, outranks, her,
+Average loss at step 55000: 5.525024272823334
+Average loss at step 60000: 5.52395480518341
+Average loss at step 65000: 5.523323419857025
+Average loss at step 70000: 5.522043223667144
+Average loss at step 75000: 5.522216732597351
+Average loss at step 80000: 5.521779584884643
+Average loss at step 85000: 5.519765890216827
+Average loss at step 90000: 5.520104561710357
+Average loss at step 95000: 5.518457663822174
+Average loss at step 100000: 5.519035270881653
+Nearest to has: had, have, is, was, are, can, were, could,
+Nearest to can: could, will, would, should, may, must, are, is,
+Nearest to had: has, have, was, were, is, are, can, could,
+Nearest to war: game, time, film, modern, majority, second, history, union,
+Nearest to UNK: d, e, n, o, john, robert, v, j,
+Nearest to they: we, you, been, these, could, would, he, those,
+Nearest to people: about, men, however, although, over, u, members, them,
+Nearest to state: city, government, story, series, version, court, group, process,
+Nearest to is: was, are, has, were, had, can, became, being,
+Nearest to more: less, about, so, over, other, long, up, if,
+Nearest to over: around, about, between, within, before, population, more, under,
+Nearest to are: were, is, was, has, can, have, had, could,
+Nearest to be: have, refer, been, being, often, make, him, were,
+Nearest to also: often, where, now, when, which, still, very, never,
+Nearest to many: several, some, all, any, various, each, most, no,
+Nearest to he: it, she, they, who, him, schule, but, instytut,
+Average loss at step 105000: 5.51956059627533
+Average loss at step 110000: 5.518278155326843
+Average loss at step 115000: 5.516749017333985
+Average loss at step 120000: 5.51767866821289
+Average loss at step 125000: 5.5158402536392215
+Average loss at step 130000: 5.515802525901795
+Average loss at step 135000: 5.514395551872253
+Average loss at step 140000: 5.516150446414947
+Average loss at step 145000: 5.515114599990845
+Average loss at step 150000: 5.515299975681305
+Nearest to has: had, have, is, was, can, are, were, could,
+Nearest to can: could, will, would, may, should, must, had, is,
+Nearest to had: has, have, was, were, is, can, could, are,
+Nearest to war: majority, game, film, time, modern, period, history, battle,
+Nearest to UNK: n, robert, e, d, then, v, o, s,
+Nearest to they: we, you, he, these, those, she, could, been,
+Nearest to people: about, men, however, although, them, members, companies, species,
+Nearest to state: city, story, series, government, version, court, group, field,
+Nearest to is: was, has, are, were, had, became, can, will,
+Nearest to more: less, about, over, so, other, long, almost, larger,
+Nearest to over: around, about, between, within, before, under, population, more,
+Nearest to are: were, was, is, had, can, have, has, could,
+Nearest to be: have, been, being, refer, make, him, were, often,
+Nearest to also: often, when, now, where, still, which, loved, usually,
+Nearest to many: several, some, all, any, various, each, most, no,
+Nearest to he: it, she, they, who, schule, but, him, foaming,
+Average loss at step 155000: 5.513901927185058
+Average loss at step 160000: 5.513580028438568
+Average loss at step 165000: 5.513785196781159
+Average loss at step 170000: 5.513700025367736
+Average loss at step 175000: 5.513104238891602
+Average loss at step 180000: 5.513072129249573
+Average loss at step 185000: 5.511875527095794
+Average loss at step 190000: 5.510962971591949
+Average loss at step 195000: 5.512062439918518
+Average loss at step 200000: 5.512463512420655
+Nearest to has: had, have, is, was, can, are, were, having,
+Nearest to can: could, will, would, may, should, must, had, cannot,
+Nearest to had: has, have, was, were, can, is, could, are,
+Nearest to war: majority, game, period, modern, film, time, history, battle,
+Nearest to UNK: shipping, n, robert, survivors, david, activist, himalaya, timeout,
+Nearest to they: we, you, he, these, she, those, alcohol, them,
+Nearest to people: men, about, them, members, companies, children, species, however,
+Nearest to state: city, story, series, version, group, period, government, court,
+Nearest to is: was, has, are, became, were, had, can, will,
+Nearest to more: less, about, other, almost, so, over, very, larger,
+Nearest to over: around, about, within, before, between, up, under, through,
+Nearest to are: were, is, was, had, can, have, has, including,
+Nearest to be: have, been, make, being, refer, were, him, often,
+Nearest to also: often, now, when, still, where, usually, never, loved,
+Nearest to many: some, several, all, various, any, each, most, both,
+Nearest to he: it, she, they, schule, who, but, foaming, ollivier,

@@ -1,0 +1,43 @@
+Average loss at step 0: 4.940556526184082
+Nearest to of: from, at, by, where, into, following, through, after,
+Nearest to will: would, could, should, does, not, so, that, must,
+Nearest to seven: six, four, eight, three, five, one, nine, two,
+Nearest to has: have, had, is, there, that, but, with, it,
+Nearest to state: government, city, court, new, history, republic, is, series,
+Nearest to which: this, but, form, or, who, also, is, these,
+Nearest to or: and, called, which, but, than, who, such, this,
+Nearest to years: time, year, example, instance, use, best, over, about,
+Nearest to as: known, being, for, very, with, it, also, by,
+Nearest to however: although, but, though, that, while, and, since, there,
+Nearest to american: german, british, french, english, italian, its, war, russian,
+Nearest to eight: seven, six, four, three, five, one, nine, zero,
+Nearest to first: last, name, following, during, most, original, second, same,
+Nearest to after: during, before, when, from, on, until, at, under,
+Nearest to some: many, several, all, those, these, most, a, been,
+Nearest to but: however, although, though, that, had, and, which, it,
+Average loss at step 5000: 4.862057428455353
+Average loss at step 10000: 4.855511244392395
+Average loss at step 15000: 4.851579878807068
+Average loss at step 20000: 4.846906759548188
+Average loss at step 25000: 4.8445961039543155
+Average loss at step 30000: 4.8443514128685
+Average loss at step 35000: 4.842603755760193
+Average loss at step 40000: 4.840934716796875
+Average loss at step 45000: 4.840152655029297
+Average loss at step 50000: 4.838470495033264
+Nearest to of: for, from, s, while, among, at, its, in,
+Nearest to will: would, could, should, can, must, does, had, did,
+Nearest to seven: six, eight, zero, nine, five, three, four, two,
+Nearest to has: had, have, is, was, but, are, however, can,
+Nearest to state: government, city, court, history, game, third, part, series,
+Nearest to which: this, but, who, where, these, that, or, however,
+Nearest to or: and, but, which, called, while, using, than, with,
+Nearest to years: year, example, million, days, instance, time, about, long,
+Nearest to as: for, very, being, cathartidae, also, known, but, sinnott,
+Nearest to however: although, but, though, while, since, that, after, which,
+Nearest to american: german, british, french, english, italian, russian, irish, canadian,
+Nearest to eight: zero, seven, nine, six, five, three, four, two,
+Nearest to first: last, following, same, name, most, original, second, end,
+Nearest to after: during, when, before, under, until, from, following, however,
+Nearest to some: many, several, all, most, those, these, much, various,
+Nearest to but: however, although, though, which, that, while, who, or,
