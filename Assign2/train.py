@@ -179,7 +179,7 @@ if __name__ == '__main__':
     # Set some constants
     MAX_NUM_TOKENS = 250
     VOCAB_SIZE = 10000
-    GLOVE_COMMON_WORDS_PATH = os.path.join("data", "glove_common_words.txt")
+    GLOVE_COMMON_WORDS_PATH = os.path.join("/data/avirinchipur/", "glove_common_words.txt")
 
     print("Reading training instances.")
     train_instances = read_instances(args.train_data_file_path, MAX_NUM_TOKENS)

@@ -31,8 +31,9 @@ class ProbingClassifier(models.Model):
         self._pretrained_model = load_pretrained_model(pretrained_model_path)
         self._pretrained_model.trainable = False
         self._layer_num = layer_num
-
+        
         # TODO(students): start
+        self.evalLayer = layers.Dense(units = classes_num)
         # ...
         # TODO(students): end
 
@@ -53,6 +54,10 @@ class ProbingClassifier(models.Model):
             only be applied during training.
         """
         # TODO(students): start
+        outputs = self._pretrained_model(inputs)
+        logits = self.evalLayer(outputs["layer_representations"][:,self._layer_num - 1,:])
         # ...
         # TODO(students): end
+
+
         return {"logits": logits}
