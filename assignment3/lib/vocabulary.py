@@ -33,6 +33,8 @@ class Vocabulary:
             label.remove(root_label)
 
         index = 0
+        # word-count stores the unique words.
+        # id_to_token stores index to word, pos and label (reverse) encodings.  
         word_count = [constants.UNKNOWN, constants.NULL, constants.ROOT]
         word_count.extend(Counter(word))
         for word in word_count:

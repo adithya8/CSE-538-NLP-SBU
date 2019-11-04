@@ -54,6 +54,7 @@ class ParsingSystem:
         """
         Provide a static-oracle recommendation for the next parsing step to take
         """
+        #last and last but one stack elements (words).
         word1 = configuration.get_stack(1)
         word2 = configuration.get_stack(0)
         if word1 > 0 and tree.get_head(word1) == word2:
@@ -103,8 +104,26 @@ class ParsingSystem:
         =================================================================
         """
         # TODO(Students) Start
+        #The buffer has words represented from 1 to n+1. Hence Stack will also have the same at any point
+        #We will have to however map those back to words and then to word index
+        #Ask Matt: should I use index mapping for the stack words?
+        #Ask Matt: Is the last argument right in add_arc or should it be index as well?
+        #Last argument can stay as an index for now becase it calls tree.set and refer tree.add for dtype
+        if(transition[0:2]=='L('):
+            #Left Reduce
+            #config.get_stack(0), config.get_stack(1) 
+            configuration.add_arc(configuration.stack[-1], configuration.stack[-2], transition[2:-1])
+            configuration.remove_second_top_stack()
+        elif(transition[0:2]=='R('):
+            #Right Reduce
+            configuration.add_arc(configuration.stack[-2], configuration.stack[-1], transition[2:-1])
+            configuration.remove_top_stack()
+        else:
+            #Shift
+            configuration.shift()
 
         # TODO(Students) End
+        return configuration
 
     def num_transitions(self) -> int:
         return len(self.transitions)

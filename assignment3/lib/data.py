@@ -40,6 +40,7 @@ def read_conll_data(data_file_path: str) -> Tuple[List[Sentence], List[Dependenc
         for line in tqdm(file):
             line = line.strip()
             array = line.split('\t')
+            #['8', 'The', '_', 'DT', 'DT', '_', '9', 'det', '_', '_\n']
             if len(array) < 10:
                 if sentence_tokens:
                     trees.append(tree)
@@ -91,6 +92,7 @@ def generate_training_instances(parsing_system: ParsingSystem,
     """
     num_transitions = parsing_system.num_transitions()
     instances: Dict[str, List] = []
+    neq = 0
     for i in tqdm(range(len(sentences))):
         if trees[i].is_projective():
             c = parsing_system.initial_configuration(sentences[i])
@@ -110,6 +112,12 @@ def generate_training_instances(parsing_system: ParsingSystem,
                     print(i, label)
                 instances.append({"input": feature, "label": label})
                 c = parsing_system.apply(c, oracle)
+        '''
+        if(c.tree == trees[i]):
+            neq += 1
+            if(neq%10==0):
+                print (neq, neq/i)
+        '''
     return instances
 
 
@@ -123,8 +131,35 @@ def get_configuration_features(configuration: Configuration,
 
     =================================================================
     """
-    # TODO(Students) Start
 
+    #Reference: Understood the features from the github implementation of: 
+    #akjindal53244/dependency_parsing_tf/utils/feature_extraction.py 
+ 
+    # TODO(Students) Start
+    features = []
+    direct_tokens = []
+    children_token = []
+
+    direct_tokens.extend([configuration.get_stack(i) for i in range(3)])
+    direct_tokens.extend([configuration.get_buffer(i) for i in range(3)])
+
+    for i in range(2):
+        children_token.extend([configuration.get_left_child(configuration.get_stack(i),1)])
+        children_token.extend([configuration.get_right_child(configuration.get_stack(i),1)])
+
+        children_token.extend([configuration.get_left_child(configuration.get_stack(i),2)])
+        children_token.extend([configuration.get_right_child(configuration.get_stack(i),2)])
+
+        children_token.extend([configuration.get_left_child(children_token[0],1)])
+        children_token.extend([configuration.get_right_child(children_token[1],1)])
+    
+    features.extend([vocabulary.get_word_id(configuration.get_word(i)) for i in direct_tokens])
+    features.extend([vocabulary.get_word_id(configuration.get_word(i)) for i in children_token])
+
+    features.extend([vocabulary.get_pos_id(configuration.get_pos(i)) for i in direct_tokens])
+    features.extend([vocabulary.get_pos_id(configuration.get_pos(i)) for i in children_token])
+
+    features.extend([vocabulary.get_label_id(configuration.get_label(i)) for i in children_token])
     # TODO(Students) End
 
     assert len(features) == 48

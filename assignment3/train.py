@@ -132,10 +132,12 @@ if __name__ == '__main__':
 
     vocabulary = Vocabulary(train_sentences, train_trees)
 
+    # Sort labels in terms of index
     sorted_labels = [item[0] for item in
                      sorted(vocabulary.label_token_to_id.items(), key=lambda e: e[1])]
     non_null_sorted_labels = sorted_labels[1:]
 
+    #Generates all possible transitions of labels (L and R, appends S at the end).
     parsing_system = ParsingSystem(non_null_sorted_labels)
 
     # Generating training instances takes ~20 minutes everytime. So once you finalize the

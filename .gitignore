@@ -5,4 +5,5 @@ Assignment1_for_students/score_maxdiff.pl
 Assignment1_for_students/checkpoints_cross_entropy/*
 Assignment1_for_students/checkpoints_nce/*
 Assignment1_for_students/word_analogy_dev_sample_predictions*
+assignment3/data/glove.6B.50d.txt
 *.DS_Store
