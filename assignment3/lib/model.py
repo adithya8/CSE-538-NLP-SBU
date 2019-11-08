@@ -24,6 +24,8 @@ class CubicActivation(layers.Layer):
         """
         # TODO(Students) Start
         # Comment the next line after implementing call.
+        t = tf.fill(tf.shape(vector), 3.0)
+        return tf.pow(vector, t)
         raise NotImplementedError
         # TODO(Students) End
 
@@ -82,7 +84,24 @@ class DependencyParser(models.Model):
 
         # Trainable Variables
         # TODO(Students) Start
+        x = tf.placeholder(tf.float32, [None, vocab_size, embedding_dim])
+        y = tf.placeholder(tf.float32, [None, num_transitions])
 
+        weights = {
+            'hidden': tf.Variable(tf.random_normal([vocab_size, hidden_dim, embedding_dim])),
+            'output': tf.Variable(tf.random_normal([hidden_dim, num_transitions, embedding_dim]))
+        }
+
+        biases = {
+            'hidden': tf.Variable(tf.random_normal([hidden_dim, embedding_dim])),
+            'output': tf.variable(tf.random_normal([num_transitions, embedding_dim]))
+        }
+
+        hidden_layer = tf.add(tf.matmul(x, weights['hidden']), biases['hidden'])
+        hidden_layer = CubicActivation(hidden_layer)
+        output_layer = tf.add(tf.matmul(hidden_layer, weights['output']), biases['output'])
+
+        cost = tf.reduce_mean(self.compute_loss(output_layer, y))
         # TODO(Students) End
 
     def call(self,

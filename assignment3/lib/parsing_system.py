@@ -112,11 +112,11 @@ class ParsingSystem:
         if(transition[0:2]=='L('):
             #Left Reduce
             #config.get_stack(0), config.get_stack(1) 
-            configuration.add_arc(configuration.stack[-1], configuration.stack[-2], transition[2:-1])
+            configuration.add_arc(config.get_stack(0), config.get_stack(1) , transition[2:-1])
             configuration.remove_second_top_stack()
         elif(transition[0:2]=='R('):
             #Right Reduce
-            configuration.add_arc(configuration.stack[-2], configuration.stack[-1], transition[2:-1])
+            configuration.add_arc(config.get_stack(1), config.get_stack(0) , transition[2:-1])
             configuration.remove_top_stack()
         else:
             #Shift
