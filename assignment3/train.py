@@ -101,8 +101,10 @@ if __name__ == '__main__':
     parser.add_argument('--embedding-dim', type=int, help='embedding_dim of word embeddings', default=50)
     parser.add_argument('--activation-name', type=str, choices=("cubic", "tanh", "sigmoid"),
                         help='activation-name', default="cubic")
-    parser.add_argument('--trainable-embeddings', type=bool,
-                        help='are embeddings trainable', default=True)
+    #parser.add_argument('--trainable-embeddings', type=bool,
+    #                   help='are embeddings trainable', default=True)
+    parser.add_argument('--trainable-embeddings', action="store_false",
+                        help='are embeddings trainable',  default=True)
     parser.add_argument('--regularization-lambda', type=float,
                         help='regularization_lambda ', default=1e-8)
 

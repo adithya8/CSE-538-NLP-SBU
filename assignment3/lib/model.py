@@ -84,24 +84,22 @@ class DependencyParser(models.Model):
 
         # Trainable Variables
         # TODO(Students) Start
-        x = tf.placeholder(tf.float32, [None, vocab_size, embedding_dim])
-        y = tf.placeholder(tf.float32, [None, num_transitions])
+        self.embeddings = tf.Variable(tf.random_normal([vocab_size, embedding_dim]))
+        #self.x = tf.placeholder(tf.float32, [None, embedding_dim])
+        #self.y = tf.placeholder(tf.float32, [None, num_transitions])
 
-        weights = {
-            'hidden': tf.Variable(tf.random_normal([vocab_size, hidden_dim, embedding_dim])),
+        self.weights = {
+            'hidden': tf.Variable(tf.random_normal([-1, hidden_dim, embedding_dim])),
             'output': tf.Variable(tf.random_normal([hidden_dim, num_transitions, embedding_dim]))
         }
 
-        biases = {
+        self.biases = {
             'hidden': tf.Variable(tf.random_normal([hidden_dim, embedding_dim])),
             'output': tf.variable(tf.random_normal([num_transitions, embedding_dim]))
         }
 
-        hidden_layer = tf.add(tf.matmul(x, weights['hidden']), biases['hidden'])
-        hidden_layer = CubicActivation(hidden_layer)
-        output_layer = tf.add(tf.matmul(hidden_layer, weights['output']), biases['output'])
-
-        cost = tf.reduce_mean(self.compute_loss(output_layer, y))
+        #cost = tf.reduce_mean(self.compute_loss(output_layer, y))
+        #Ask Matt: Logits normalization?
         # TODO(Students) End
 
     def call(self,
@@ -134,7 +132,11 @@ class DependencyParser(models.Model):
 
         """
         # TODO(Students) Start
-
+        x = tf.nn.embedding_lookup(self.embeddings, inputs)
+        
+        hidden_layer = tf.add(tf.matmul(x, self.weights['hidden']), self.biases['hidden'])
+        hidden_layer = CubicActivation(hidden_layer)
+        logits = tf.add(tf.matmul(hidden_layer, self.weights['output']), self.biases['output'])
         # TODO(Students) End
         output_dict = {"logits": logits}
 
@@ -158,6 +160,7 @@ class DependencyParser(models.Model):
 
         """
         # TODO(Students) Start
-
+        loss = tf.nn.softmax_cross_entropy_with_logits(logits, labels)
+        regularization = tf.nn.l2_loss(self.weights['hidden']) + tf.nn.l2_loss(self.weights['output'])
         # TODO(Students) End
         return loss + regularization
