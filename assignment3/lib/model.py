@@ -84,18 +84,18 @@ class DependencyParser(models.Model):
 
         # Trainable Variables
         # TODO(Students) Start
-        self.embeddings = tf.Variable(tf.random_normal([vocab_size, embedding_dim]))
+        self.embeddings = tf.Variable(tf.random.normal([vocab_size, embedding_dim]))
         #self.x = tf.placeholder(tf.float32, [None, embedding_dim])
         #self.y = tf.placeholder(tf.float32, [None, num_transitions])
 
         self.weights = {
-            'hidden': tf.Variable(tf.random_normal([-1, hidden_dim, embedding_dim])),
-            'output': tf.Variable(tf.random_normal([hidden_dim, num_transitions, embedding_dim]))
+            'hidden': tf.Variable(tf.random.normal([-1, hidden_dim, embedding_dim])),
+            'output': tf.Variable(tf.random.normal([hidden_dim, num_transitions, embedding_dim]))
         }
 
         self.biases = {
-            'hidden': tf.Variable(tf.random_normal([hidden_dim, embedding_dim])),
-            'output': tf.variable(tf.random_normal([num_transitions, embedding_dim]))
+            'hidden': tf.Variable(tf.random.normal([hidden_dim, embedding_dim])),
+            'output': tf.variable(tf.random.normal([num_transitions, embedding_dim]))
         }
 
         #cost = tf.reduce_mean(self.compute_loss(output_layer, y))
@@ -133,7 +133,7 @@ class DependencyParser(models.Model):
         """
         # TODO(Students) Start
         x = tf.nn.embedding_lookup(self.embeddings, inputs)
-        
+        print ("X Shape: ",x.shape)
         hidden_layer = tf.add(tf.matmul(x, self.weights['hidden']), self.biases['hidden'])
         hidden_layer = CubicActivation(hidden_layer)
         logits = tf.add(tf.matmul(hidden_layer, self.weights['output']), self.biases['output'])
