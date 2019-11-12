@@ -112,12 +112,12 @@ def generate_training_instances(parsing_system: ParsingSystem,
                     print(i, label)
                 instances.append({"input": feature, "label": label})
                 c = parsing_system.apply(c, oracle)
-        '''
-        if(c.tree == trees[i]):
+        
+        if(c.tree.equal(trees[i])):
             neq += 1
-            if(neq%10==0):
+            if(neq%10000==0):
                 print (neq, neq/i)
-        '''
+        
     return instances
 
 
@@ -175,17 +175,27 @@ def generate_batches(instances: List[Dict],
     def chunk(items: List[Any], num: int) -> List[Any]:
         return [items[index:index+num] for index in range(0, len(items), num)]
     batches_of_instances = chunk(instances, batch_size)
-
+    # Creating list (say A) of lists (say B) with size of A to batch_size(mostly) -> batches_of_instaces.
+      
     batches = []
     for batch_of_instances in tqdm(batches_of_instances):
+        #Iterating over each A in B.
+        #Ask Matt: count -> len(A) ? (# rows): print the cases when they are not eq
+        #feature_count -> len of feature vector (# columns)
         count = min(batch_size, len(batch_of_instances))
+        #remove after checking the following if block
+        if(batch_size != len(batch_of_instances)):
+            print(batch_size, len(batch_of_instances))
         features_count = len(batch_of_instances[0]["input"])
 
+        #batch['inputs'] -> All 0s for that A (size: batch_size?)
+        #batch['label'] -> All of 0s 
         batch = {"inputs": np.zeros((count, features_count), dtype=np.int32)}
         if "label" in  batch_of_instances[0]:
             labels_count = len(batch_of_instances[0]["label"])
             batch["labels"] = np.zeros((count, labels_count), dtype=np.int32)
 
+        #Creating batches -> list of dict of numpy arrays.
         for batch_index, instance in enumerate(batch_of_instances):
             batch["inputs"][batch_index] = np.array(instance["input"])
             if "label" in instance:
