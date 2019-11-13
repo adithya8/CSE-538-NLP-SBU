@@ -94,10 +94,11 @@ class DependencyParser(models.Model):
         }
 
         self.biases = {
-            'hidden': tf.Variable(tf.random.normal([hidden_dim, embedding_dim])),
+            'hidden': tf.Variable(tf.random.normal([1, hidden_dim])),
             #'output': tf.variable(tf.random.normal([num_transitions, embedding_dim]))
         }
 
+        self.regLambda = regularization_lambda
         #cost = tf.reduce_mean(self.compute_loss(output_layer, y))
         #Ask Matt: Logits normalization?
         # TODO(Students) End
@@ -164,4 +165,4 @@ class DependencyParser(models.Model):
         loss = tf.nn.softmax_cross_entropy_with_logits(logits, labels)
         regularization = tf.nn.l2_loss(self.weights['hidden']) + tf.nn.l2_loss(self.weights['output'])
         # TODO(Students) End
-        return loss + regularization
+        return loss + self.regLambda*regularization
