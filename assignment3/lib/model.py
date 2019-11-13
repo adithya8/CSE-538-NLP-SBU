@@ -89,13 +89,13 @@ class DependencyParser(models.Model):
         #self.y = tf.placeholder(tf.float32, [None, num_transitions])
 
         self.weights = {
-            'hidden': tf.Variable(tf.random.normal([-1, hidden_dim, embedding_dim])),
-            'output': tf.Variable(tf.random.normal([hidden_dim, num_transitions, embedding_dim]))
+            'hidden': tf.Variable(tf.random.normal([num_tokens*embedding_dim, hidden_dim])),
+            'output': tf.Variable(tf.random.normal([hidden_dim, num_transitions]))
         }
 
         self.biases = {
             'hidden': tf.Variable(tf.random.normal([hidden_dim, embedding_dim])),
-            'output': tf.variable(tf.random.normal([num_transitions, embedding_dim]))
+            #'output': tf.variable(tf.random.normal([num_transitions, embedding_dim]))
         }
 
         #cost = tf.reduce_mean(self.compute_loss(output_layer, y))
@@ -133,10 +133,11 @@ class DependencyParser(models.Model):
         """
         # TODO(Students) Start
         x = tf.nn.embedding_lookup(self.embeddings, inputs)
+        x = tf.reshape(x, [-1,1])
         print ("X Shape: ",x.shape)
-        hidden_layer = tf.add(tf.matmul(x, self.weights['hidden']), self.biases['hidden'])
+        hidden_layer = tf.add(tf.linalg.matmul(x, self.weights['hidden'], transpose_a=True), self.biases['hidden'])
         hidden_layer = CubicActivation(hidden_layer)
-        logits = tf.add(tf.matmul(hidden_layer, self.weights['output']), self.biases['output'])
+        logits = tf.linalg.matmul(hidden_layer, self.weights['output'])
         # TODO(Students) End
         output_dict = {"logits": logits}
 
