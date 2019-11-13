@@ -25,6 +25,8 @@ class CubicActivation(layers.Layer):
         # TODO(Students) Start
         # Comment the next line after implementing call.
         t = tf.fill(tf.shape(vector), 3.0)
+        #print ("t.shape: ",t.shape)
+        #print ("Pow shape: ", tf.pow(vector, t).shape)
         return tf.pow(vector, t)
         raise NotImplementedError
         # TODO(Students) End
@@ -94,7 +96,7 @@ class DependencyParser(models.Model):
         }
 
         self.biases = {
-            'hidden': tf.Variable(tf.random.normal([1, hidden_dim])),
+            'hidden': tf.Variable(tf.random.normal([hidden_dim])),
             #'output': tf.variable(tf.random.normal([num_transitions, embedding_dim]))
         }
 
@@ -134,11 +136,15 @@ class DependencyParser(models.Model):
         """
         # TODO(Students) Start
         x = tf.nn.embedding_lookup(self.embeddings, inputs)
-        x = tf.reshape(x, [-1,1])
-        print ("X Shape: ",x.shape)
-        hidden_layer = tf.add(tf.linalg.matmul(x, self.weight['hidden'], transpose_a=True), self.biases['hidden'])
-        hidden_layer = CubicActivation(hidden_layer)
+        x = tf.reshape(x, [inputs.shape[0],-1])
+        #print ("X Shape: ",x.shape, self.weight['hidden'].shape)
+        hidden_layer = tf.add(tf.linalg.matmul(x, self.weight['hidden']), self.biases['hidden'])
+        #print ("Hidden shape: ", hidden_layer.shape)
+        cAct = CubicActivation()
+        hidden_layer = cAct.call(hidden_layer)
+        #print ("Activated shape: ", hidden_layer.shape)
         logits = tf.linalg.matmul(hidden_layer, self.weight['output'])
+        #print ("Logits: ", logits.shape)
         # TODO(Students) End
         output_dict = {"logits": logits}
 
