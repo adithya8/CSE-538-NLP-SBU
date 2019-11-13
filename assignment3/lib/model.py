@@ -88,7 +88,7 @@ class DependencyParser(models.Model):
         #self.x = tf.placeholder(tf.float32, [None, embedding_dim])
         #self.y = tf.placeholder(tf.float32, [None, num_transitions])
 
-        self.weights = {
+        self.weight = {
             'hidden': tf.Variable(tf.random.normal([num_tokens*embedding_dim, hidden_dim])),
             'output': tf.Variable(tf.random.normal([hidden_dim, num_transitions]))
         }
@@ -136,9 +136,9 @@ class DependencyParser(models.Model):
         x = tf.nn.embedding_lookup(self.embeddings, inputs)
         x = tf.reshape(x, [-1,1])
         print ("X Shape: ",x.shape)
-        hidden_layer = tf.add(tf.linalg.matmul(x, self.weights['hidden'], transpose_a=True), self.biases['hidden'])
+        hidden_layer = tf.add(tf.linalg.matmul(x, self.weight['hidden'], transpose_a=True), self.biases['hidden'])
         hidden_layer = CubicActivation(hidden_layer)
-        logits = tf.linalg.matmul(hidden_layer, self.weights['output'])
+        logits = tf.linalg.matmul(hidden_layer, self.weight['output'])
         # TODO(Students) End
         output_dict = {"logits": logits}
 
