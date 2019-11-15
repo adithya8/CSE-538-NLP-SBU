@@ -202,7 +202,7 @@ class DependencyParser(models.Model):
         logits_sm = tf.math.divide(logits_sm,tf.reduce_sum(logits_sm, axis=1, keepdims=1))
         #print ("logits: ",logits)
         #print ("logits sm: ",logits_sm)
-        loss = -tf.reduce_mean(tf.math.reduce_sum(actual_labels * tf.math.log(logits_sm), axis=1, keepdims=True))
+        loss = -tf.reduce_mean(tf.math.reduce_sum(actual_labels * tf.math.log(logits_sm + 10e-12), axis=1, keepdims=True))
         #print ("loss: ", loss.shape)
         #pdb.set_trace()
 #        print(labels.shape, logits.shape)
