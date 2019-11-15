@@ -196,15 +196,15 @@ class DependencyParser(models.Model):
         #print ("logits: ",labels_sm)
         
         
-        print ("actual Labels: ", tf.reduce_sum(actual_labels, 1))
+        #print ("actual Labels: ", tf.reduce_sum(actual_labels, 1))
 
         logits_sm = tf.math.exp(tf.math.multiply(logits,labels_mask))
         logits_sm = tf.math.divide(logits_sm,tf.reduce_sum(logits_sm, axis=1, keepdims=1))
-        print ("logits: ",logits)
-        print ("logits sm: ",logits_sm)
+        #print ("logits: ",logits)
+        #print ("logits sm: ",logits_sm)
         loss = -tf.reduce_mean(tf.math.reduce_sum(actual_labels * tf.math.log(logits_sm), axis=1, keepdims=True))
-        print ("loss: ", loss.shape)
-        pdb.set_trace()
+        #print ("loss: ", loss.shape)
+        #pdb.set_trace()
 #        print(labels.shape, logits.shape)
         #loss = tf.nn.softmax_cross_entropy_with_logits(labels, logits, axis=-1)
         regularization = (tf.nn.l2_loss(self.weight['hidden']) + tf.nn.l2_loss(self.weight['output']))
