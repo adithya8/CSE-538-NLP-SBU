@@ -182,6 +182,6 @@ class DependencyParser(models.Model):
         loss = -tf.reduce_mean(tf.math.reduce_sum(actual_labels * tf.math.log(logits_sm + 10e-12), axis=1, keepdims=True))
 
         regularization = (tf.nn.l2_loss(self.weight['hidden']) + tf.nn.l2_loss(self.weight['output']))
-        regularization = tf.fill(tf.shape(regularization),self.regLambda)*regularization
+        regularization = tf.fill(tf.shape(regularization),self.regLambda/2.0)*regularization
         # TODO(Students) End
         return loss + regularization
