@@ -216,7 +216,7 @@ def load_embeddings(embeddings_txt_file: str,
 
     embeddings: Dict[str, np.ndarray] = {}
     print("\nReading pretrained embedding file.")
-    with open(embeddings_txt_file) as file:
+    with open(embeddings_txt_file, encoding='utf-8') as file:
         for line in tqdm(file):
             line = str(line).strip()
             token = line.split(' ', 1)[0]
