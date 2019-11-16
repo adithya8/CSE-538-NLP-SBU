@@ -88,8 +88,7 @@ class DependencyParser(models.Model):
         # Trainable Variables
         # TODO(Students) Start
         self.embeddings = tf.Variable(tf.random.truncated_normal([vocab_size, embedding_dim], stddev=1/math.sqrt(vocab_size)))
-        #self.x = tf.placeholder(tf.float32, [None, embedding_dim])
-        #self.y = tf.placeholder(tf.float32, [None, num_transitions])
+        
 
         self.weight = {
             'hidden': tf.Variable(tf.random.truncated_normal([num_tokens*embedding_dim, hidden_dim], stddev=1/math.sqrt(num_tokens*embedding_dim))),
@@ -102,8 +101,7 @@ class DependencyParser(models.Model):
         }
 
         self.regLambda = regularization_lambda
-        #cost = tf.reduce_mean(self.compute_loss(output_layer, y))
-        #Ask Matt: Logits normalization?
+        
         # TODO(Students) End
 
     def call(self,
@@ -138,14 +136,13 @@ class DependencyParser(models.Model):
         # TODO(Students) Start
         x = tf.nn.embedding_lookup(self.embeddings, inputs)
         x = tf.reshape(x, [inputs.shape[0],-1])
-        #print ("X Shape: ",x.shape, self.weight['hidden'].shape)
+        
         hidden_layer = tf.add(tf.linalg.matmul(x, self.weight['hidden']), self.biases['hidden'])
-        #print ("Hidden shape: ", hidden_layer.shape)
-        #cAct = CubicActivation()
+        
         hidden_layer = self._activation(hidden_layer)
-        #print ("Activated shape: ", hidden_layer.shape)
+        
         logits = tf.linalg.matmul(hidden_layer, self.weight['output'])
-        #print ("Logits: ", logits.shape)
+        
         # TODO(Students) End
         output_dict = {"logits": logits}
 
@@ -169,21 +166,8 @@ class DependencyParser(models.Model):
 
         """
         # TODO(Students) Start
-        #print ("logits & labels shape: ",logits.shape, labels.shape)
-        '''
-        A = tf.math.reduce_sum(tf.math.multiply(logits, tf.dtypes.cast(labels, dtype=tf.float32)), axis=1)
-        B = tf.math.log(tf.reduce_sum(tf.math.exp(tf.linalg.matmul(logits, tf.dtypes.cast(labels, dtype=tf.float32), transpose_b=True)), axis=1))        
-        #print ("A,B: ",A.shape, B.shape)
-        loss = tf.math.reduce_mean(tf.math.subtract(B, A))
-        regularization = (tf.nn.l2_loss(self.weight['hidden']) + tf.nn.l2_loss(self.weight['output']))
-'''     #labels -> -1: labels -> -inf
-        #If logits are also -ve, when labels -> -ve
-        #labels
-        #create a mask matrix for the labels.
-        #Calculate softmax for the labels. 
-        #Multiply mask matrix with the softmax val -> actual probability matrix
-        #Compute loss
 
+        #Calculating Cross entropy: https://stackoverflow.com/questions/36078411/tensorflow-are-my-logits-in-the-right-format-for-cross-entropy-function/36086477#36086477
         condition = tf.equal(labels, -1)
         case_true = tf.constant(0, shape=labels.shape, dtype=tf.float32)
         case_false = tf.constant(1, shape=labels.shape, dtype=tf.float32)
@@ -191,22 +175,12 @@ class DependencyParser(models.Model):
 
         labels = tf.dtypes.cast(labels,tf.float32)
         actual_labels = tf.math.multiply(labels, labels_mask)
-        #labels_sm = tf.nn.softmax(actual_labels)*labels_mask
-
-        #print ("logits: ",labels_sm)
         
-        
-        #print ("actual Labels: ", tf.reduce_sum(actual_labels, 1))
-
         logits_sm = tf.math.exp(tf.math.multiply(logits,labels_mask))
         logits_sm = tf.math.divide(logits_sm,tf.reduce_sum(logits_sm, axis=1, keepdims=1))
-        #print ("logits: ",logits)
-        #print ("logits sm: ",logits_sm)
+
         loss = -tf.reduce_mean(tf.math.reduce_sum(actual_labels * tf.math.log(logits_sm + 10e-12), axis=1, keepdims=True))
-        #print ("loss: ", loss.shape)
-        #pdb.set_trace()
-#        print(labels.shape, logits.shape)
-        #loss = tf.nn.softmax_cross_entropy_with_logits(labels, logits, axis=-1)
+
         regularization = (tf.nn.l2_loss(self.weight['hidden']) + tf.nn.l2_loss(self.weight['output']))
         regularization = tf.fill(tf.shape(regularization),self.regLambda)*regularization
         # TODO(Students) End
