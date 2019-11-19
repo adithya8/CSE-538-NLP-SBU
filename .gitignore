@@ -6,4 +6,6 @@ Assignment1_for_students/checkpoints_cross_entropy/*
 Assignment1_for_students/checkpoints_nce/*
 Assignment1_for_students/word_analogy_dev_sample_predictions*
 assignment3/data/glove.6B.50d.txt
+assignment3/data/train.jsonl
+assignment3/dev_predictions.conll
 *.DS_Store
