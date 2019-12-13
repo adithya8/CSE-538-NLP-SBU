@@ -1,5 +1,6 @@
 import os
 import json
+import pdb
 
 from tqdm import tqdm
 from sklearn.metrics import f1_score
@@ -14,6 +15,7 @@ def train(model, optimizer, train_instances, validation_instances, num_epochs, b
 
     print("\nGenerating train batches")
     train_batches = generate_batches(train_instances, batch_size)
+    #pdb.set_trace()
     print("\nGenerating val batches")
     val_batches = generate_batches(validation_instances, batch_size)
 
@@ -30,6 +32,9 @@ def train(model, optimizer, train_instances, validation_instances, num_epochs, b
                 loss_val = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=batch_labels)
                 ### TODO(student) START
                 regularization = 0
+                for v in model.trainable_variables:
+                    regularization += tf.nn.l2_loss(v)
+                regularization *= (1e-5) 
                 ### TODO(Student) END
                 loss_val += regularization
                 grads = tape.gradient(loss_val, model.trainable_variables)
@@ -56,7 +61,7 @@ def train(model, optimizer, train_instances, validation_instances, num_epochs, b
             val_loss += tf.reduce_mean(loss_value)
 
         # remove "Other" class (id = 0) becase we don't care in evaluation
-        non_zero_preds = np.array(set(total_preds) - {0})
+        non_zero_preds = np.array(list(set(total_preds) - {0}))
         f1 = f1_score(total_labels, total_preds, labels=non_zero_preds, average='macro')
         val_loss = val_loss/len(val_batches)
         print(f"Val loss for epoch: {round(float(val_loss), 4)}")

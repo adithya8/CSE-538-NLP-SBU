@@ -5,7 +5,7 @@ set -x
 
 GLOVE_URL=http://nlp.stanford.edu/data/glove.6B.zip
 
-cd data/
+cd /data/avirinchipur/
 wget $GLOVE_URL
 unzip $(basename $GLOVE_URL)
 rm $(basename $GLOVE_URL)
