@@ -22,6 +22,7 @@ if __name__ == '__main__':
     parser.add_argument('--embed-file', type=str, help="embedding location", default='./data/glove.6B.100D.txt')
     parser.add_argument('--embed-dim', type=int, help="size of embeddings", default=100)
     parser.add_argument('--hidden-size', type=int, help="size of hidden dimension", default=128)
+    parser.add_argument('--model-type', type=str, help="Type of the advanced model", default='')
 
     args = parser.parse_args()
 
@@ -50,8 +51,7 @@ if __name__ == '__main__':
 
     ### TODO(Students) START
     # make a config file here as expected by your MyAdvancedModel
-    config = {'vocab_size': vocab_size, 'embed_dim': args.embed_dim, 'training': True, 'hidden_size': args.hidden_size}
-    #config = {}
+    config = {'vocab_size': vocab_size, 'embed_dim': args.embed_dim, 'training': True, 'hidden_size': args.hidden_size, 'model_type': args.model_type}
     ### TODO(Students END
     model = MyAdvancedModel(**config)
     config['type'] = 'advanced'
