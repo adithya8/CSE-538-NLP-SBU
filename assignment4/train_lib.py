@@ -52,8 +52,7 @@ def train(model, optimizer, train_instances, validation_instances, num_epochs, b
         total_labels = []
         generator_tqdm = tqdm(list(zip(val_batches, val_batch_labels)))
         for batch_inputs, batch_labels in generator_tqdm:
-            with tf.device('/GPU:0'):
-                logits = model(**batch_inputs, training=False)['logits']
+            logits = model(**batch_inputs, training=False)['logits']
             loss_value = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=batch_labels)
             batch_preds = np.argmax(tf.nn.softmax(logits, axis=-1).numpy(), axis=-1)
             batch_labels = np.argmax(batch_labels, axis=-1)

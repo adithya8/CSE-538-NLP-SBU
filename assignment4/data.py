@@ -67,9 +67,10 @@ def read_instances(data_file_path: str,
         start = sentence[e11:e12+4]
         end = sentence[e21:e22+4]
 
-        shortest_path = find_shortest_path(doc, start, end)
+        #shortest_path = find_shortest_path(doc, start, end)
+        shortest_path = []
 
-        if shortest_path:
+        if len(shortest_path)>0:
             tokens = []
             pos = []
             for token in doc:
